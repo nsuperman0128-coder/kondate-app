@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f8fb" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Kondate" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./icons/icon-180.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Kondate</title>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">MEAL PLANNER</p>
+        <h1>Kondate</h1>
+      </div>
+      <button class="round-btn" id="openSettings" aria-label="条件設定">⚙︎</button>
+    </header>
+
+    <section id="homeView" class="view active">
+      <div class="section-head">
+        <div>
+          <h2>今日の献立</h2>
+          <p id="todayLabel"></p>
+        </div>
+        <button class="ghost-btn" id="regenToday">↻ 別の献立</button>
+      </div>
+      <div id="todayMeals" class="meal-stack"></div>
+
+      <div class="shortcut-grid">
+        <button class="shortcut" data-target="weekView"><span>📅</span><b>今週の献立</b><small>7日分を確認・変更</small></button>
+        <button class="shortcut" data-target="shoppingView"><span>🛒</span><b>買い物リスト</b><small>必要食材をチェック</small></button>
+        <button class="shortcut" data-target="recipesView"><span>📖</span><b>レシピ一覧</b><small>登録メニューを確認</small></button>
+        <button class="shortcut" data-target="settingsView"><span>🎛️</span><b>条件設定</b><small>人数・ジャンル・苦手食材</small></button>
+      </div>
+    </section>
+
+    <section id="weekView" class="view">
+      <div class="section-head">
+        <div><h2>今週の献立</h2><p>朝・昼・夜を一覧表示</p></div>
+        <button class="ghost-btn" id="regenWeek">↻ 再作成</button>
+      </div>
+      <div id="weekList" class="week-list"></div>
+    </section>
+
+    <section id="shoppingView" class="view">
+      <div class="section-head">
+        <div><h2>買い物リスト</h2><p>タップで購入済みにできます</p></div>
+        <button class="ghost-btn" id="resetShopping">未購入に戻す</button>
+      </div>
+      <div id="shoppingList" class="shopping-list"></div>
+    </section>
+
+    <section id="recipesView" class="view">
+      <div class="section-head"><div><h2>レシピ一覧</h2><p>Phase 1 はサンプル表示です</p></div></div>
+      <div id="recipeList" class="recipe-grid"></div>
+    </section>
+
+    <section id="settingsView" class="view">
+      <div class="section-head"><div><h2>条件設定</h2><p>このiPhoneに保存されます</p></div></div>
+      <div class="panel">
+        <label class="row"><span>人数</span><select id="people"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option></select></label>
+        <label class="row"><span>予算</span><select id="budget"><option value="low">節約</option><option value="mid" selected>ふつう</option><option value="free">気にしない</option></select></label>
+
+        <div class="field"><span class="field-label">対象の食事</span><div class="chips" id="mealChecks">
+          <label><input type="checkbox" value="朝食" checked><span>朝食</span></label>
+          <label><input type="checkbox" value="昼食" checked><span>昼食</span></label>
+          <label><input type="checkbox" value="夕食" checked><span>夕食</span></label>
+        </div></div>
+
+        <div class="field"><span class="field-label">料理ジャンル</span><div class="chips" id="genreChecks">
+          <label><input type="checkbox" value="和食" checked><span>和食</span></label>
+          <label><input type="checkbox" value="洋食"><span>洋食</span></label>
+          <label><input type="checkbox" value="中華"><span>中華</span></label>
+          <label><input type="checkbox" value="インドネシア"><span>インドネシア</span></label>
+          <label><input type="checkbox" value="なんでも"><span>なんでも</span></label>
+        </div></div>
+
+        <div class="field"><span class="field-label">こだわり条件</span><div class="chips" id="optionChecks">
+          <label><input type="checkbox" value="簡単"><span>簡単</span></label>
+          <label><input type="checkbox" value="節約"><span>節約</span></label>
+          <label><input type="checkbox" value="高タンパク"><span>高タンパク</span></label>
+          <label><input type="checkbox" value="野菜多め"><span>野菜多め</span></label>
+          <label><input type="checkbox" value="辛いものOK"><span>辛いものOK</span></label>
+        </div></div>
+
+        <label class="field"><span class="field-label">苦手な食材</span><input id="dislikes" class="text-input" placeholder="例：パクチー、エビ、チーズ"></label>
+        <label class="field"><span class="field-label">冷蔵庫にある食材</span><input id="fridge" class="text-input" placeholder="例：鶏肉、卵、キャベツ"></label>
+        <button class="primary-btn" id="saveSettings">この条件を保存</button>
+      </div>
+    </section>
+
+    <nav class="bottom-nav" aria-label="メインメニュー">
+      <button class="nav-btn active" data-target="homeView"><span>⌂</span><small>ホーム</small></button>
+      <button class="nav-btn" data-target="weekView"><span>📅</span><small>週間</small></button>
+      <button class="nav-btn" data-target="shoppingView"><span>🛒</span><small>買い物</small></button>
+      <button class="nav-btn" data-target="settingsView"><span>⚙︎</span><small>設定</small></button>
+    </nav>
+  </main>
+  <div id="toast" class="toast"></div>
+  <script src="./recipes.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
