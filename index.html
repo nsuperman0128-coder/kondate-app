@@ -57,7 +57,14 @@
     </section>
 
     <section id="recipesView" class="view">
-      <div class="section-head"><div><h2>レシピ一覧</h2><p>Phase 1 はサンプル表示です</p></div></div>
+      <div class="section-head"><div><h2>レシピ一覧</h2><p>300品の作り方をタップで確認</p></div></div>
+      <div class="recipe-filters">
+        <label for="recipeSearch">料理名・材料で検索</label>
+        <input id="recipeSearch" class="text-input" type="search" placeholder="例：鶏肉、豆腐、パスタ" autocomplete="off">
+        <label for="recipeGenre">ジャンル</label>
+        <select id="recipeGenre" class="text-input"><option value="">すべて</option><option>和食</option><option>洋食</option><option>中華</option><option>インドネシア</option></select>
+        <p id="recipeCount" role="status" aria-live="polite"></p>
+      </div>
       <div id="recipeList" class="recipe-grid"></div>
     </section>
 
@@ -102,6 +109,13 @@
       <button class="nav-btn" data-target="settingsView"><span>⚙︎</span><small>設定</small></button>
     </nav>
   </main>
+  <dialog id="recipeDialog" aria-labelledby="recipeTitle">
+    <div class="detail-head"><button id="closeRecipe" class="ghost-btn">← 閉じる</button></div>
+    <h2 id="recipeTitle"></h2><p id="recipeInfo"></p>
+    <h3>材料・分量</h3><p class="detail-hint">条件設定の人数に合わせた分量です。</p><ul id="recipeIngredients"></ul>
+    <h3>作り方</h3><ol id="recipeSteps"></ol>
+    <h3>メモ</h3><p id="recipeNotes"></p>
+  </dialog>
   <div id="toast" class="toast"></div>
   <script src="./recipes.js"></script>
   <script src="./app.js"></script>

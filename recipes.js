@@ -1,1 +1,21623 @@
-window.RECIPES = [{"id":"ja01","name":"おにぎりと味噌汁","emoji":"🍙","genre":"和食","meals":["朝食"],"tags":["簡単","節約"],"minutes":15,"ingredients":[{"name":"米","qty":100,"unit":"g","group":"その他"},{"name":"味噌","qty":10,"unit":"g","group":"その他"},{"name":"わかめ","qty":2,"unit":"g","group":"野菜・きのこ"},{"name":"ねぎ","qty":10,"unit":"g","group":"野菜・きのこ"}]},{"id":"ja02","name":"卵かけご飯と味噌汁","emoji":"🥚","genre":"和食","meals":["朝食"],"tags":["簡単","節約","高タンパク"],"minutes":10,"ingredients":[{"name":"米","qty":100,"unit":"g","group":"その他"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"味噌","qty":10,"unit":"g","group":"その他"},{"name":"豆腐","qty":50,"unit":"g","group":"その他"},{"name":"ねぎ","qty":10,"unit":"g","group":"野菜・きのこ"}]},{"id":"ja03","name":"焼き鮭定食","emoji":"🐟","genre":"和食","meals":["朝食","夕食"],"tags":["高タンパク"],"minutes":25,"ingredients":[{"name":"鮭","qty":100,"unit":"g","group":"肉・魚"},{"name":"米","qty":100,"unit":"g","group":"その他"},{"name":"大根","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"味噌","qty":10,"unit":"g","group":"その他"}]},{"id":"ja04","name":"親子丼","emoji":"🍚","genre":"和食","meals":["昼食","夕食"],"tags":["簡単","高タンパク"],"minutes":25,"ingredients":[{"name":"鶏もも肉","qty":120,"unit":"g","group":"肉・魚"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"玉ねぎ","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"ja05","name":"鶏の照り焼き定食","emoji":"🍗","genre":"和食","meals":["昼食","夕食"],"tags":["高タンパク"],"minutes":30,"ingredients":[{"name":"鶏もも肉","qty":150,"unit":"g","group":"肉・魚"},{"name":"キャベツ","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"},{"name":"醤油","qty":15,"unit":"ml","group":"その他"}]},{"id":"ja06","name":"肉じゃが","emoji":"🥔","genre":"和食","meals":["夕食"],"tags":["節約","野菜多め"],"minutes":40,"ingredients":[{"name":"豚こま肉","qty":100,"unit":"g","group":"肉・魚"},{"name":"じゃがいも","qty":150,"unit":"g","group":"野菜・きのこ"},{"name":"玉ねぎ","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":60,"unit":"g","group":"野菜・きのこ"}]},{"id":"ja07","name":"豚の生姜焼き","emoji":"🥩","genre":"和食","meals":["昼食","夕食"],"tags":["簡単","高タンパク"],"minutes":25,"ingredients":[{"name":"豚こま肉","qty":150,"unit":"g","group":"肉・魚"},{"name":"玉ねぎ","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"キャベツ","qty":100,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"ja08","name":"焼きうどん","emoji":"🍜","genre":"和食","meals":["昼食","夕食"],"tags":["簡単","節約","野菜多め"],"minutes":20,"ingredients":[{"name":"うどん","qty":1,"unit":"玉","group":"その他"},{"name":"豚こま肉","qty":80,"unit":"g","group":"肉・魚"},{"name":"キャベツ","qty":100,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":40,"unit":"g","group":"野菜・きのこ"}]},{"id":"ja09","name":"豆腐ハンバーグ","emoji":"🍽️","genre":"和食","meals":["夕食"],"tags":["高タンパク","節約"],"minutes":35,"ingredients":[{"name":"木綿豆腐","qty":120,"unit":"g","group":"その他"},{"name":"鶏ひき肉","qty":100,"unit":"g","group":"肉・魚"},{"name":"玉ねぎ","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"卵","qty":0.5,"unit":"個","group":"卵・乳製品"}]},{"id":"ja10","name":"野菜たっぷり豚汁","emoji":"🍲","genre":"和食","meals":["朝食","夕食"],"tags":["野菜多め","節約"],"minutes":30,"ingredients":[{"name":"豚こま肉","qty":70,"unit":"g","group":"肉・魚"},{"name":"大根","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"ごぼう","qty":40,"unit":"g","group":"野菜・きのこ"},{"name":"味噌","qty":15,"unit":"g","group":"その他"}]},{"id":"ja11","name":"そぼろ丼","emoji":"🍚","genre":"和食","meals":["昼食","夕食"],"tags":["簡単","高タンパク"],"minutes":20,"ingredients":[{"name":"鶏ひき肉","qty":120,"unit":"g","group":"肉・魚"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"米","qty":120,"unit":"g","group":"その他"},{"name":"ねぎ","qty":10,"unit":"g","group":"野菜・きのこ"}]},{"id":"ja12","name":"冷やしうどん","emoji":"🥢","genre":"和食","meals":["昼食"],"tags":["簡単","節約"],"minutes":15,"ingredients":[{"name":"うどん","qty":1,"unit":"玉","group":"その他"},{"name":"きゅうり","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"めんつゆ","qty":30,"unit":"ml","group":"その他"}]},{"id":"id01","name":"ナシゴレン","emoji":"🍳","genre":"インドネシア","meals":["朝食","昼食","夕食"],"tags":["簡単","辛いものOK"],"minutes":20,"ingredients":[{"name":"米","qty":120,"unit":"g","group":"その他"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"鶏むね肉","qty":80,"unit":"g","group":"肉・魚"},{"name":"玉ねぎ","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"ケチャップマニス","qty":15,"unit":"ml","group":"その他"}]},{"id":"id02","name":"ミーゴレン","emoji":"🍜","genre":"インドネシア","meals":["昼食","夕食"],"tags":["簡単","辛いものOK"],"minutes":20,"ingredients":[{"name":"中華麺","qty":1,"unit":"玉","group":"その他"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"キャベツ","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"鶏むね肉","qty":70,"unit":"g","group":"肉・魚"},{"name":"ケチャップマニス","qty":15,"unit":"ml","group":"その他"}]},{"id":"id03","name":"アヤムゴレン","emoji":"🍗","genre":"インドネシア","meals":["昼食","夕食"],"tags":["高タンパク"],"minutes":35,"ingredients":[{"name":"鶏もも肉","qty":180,"unit":"g","group":"肉・魚"},{"name":"にんにく","qty":5,"unit":"g","group":"野菜・きのこ"},{"name":"ターメリック","qty":2,"unit":"g","group":"その他"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"id04","name":"ソトアヤム","emoji":"🥘","genre":"インドネシア","meals":["朝食","昼食","夕食"],"tags":["高タンパク","野菜多め"],"minutes":40,"ingredients":[{"name":"鶏むね肉","qty":120,"unit":"g","group":"肉・魚"},{"name":"キャベツ","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"もやし","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"春雨","qty":30,"unit":"g","group":"その他"},{"name":"卵","qty":0.5,"unit":"個","group":"卵・乳製品"}]},{"id":"id05","name":"ガドガド","emoji":"🥗","genre":"インドネシア","meals":["昼食","夕食"],"tags":["野菜多め","節約"],"minutes":25,"ingredients":[{"name":"キャベツ","qty":100,"unit":"g","group":"野菜・きのこ"},{"name":"もやし","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"ピーナッツソース","qty":40,"unit":"g","group":"その他"}]},{"id":"id06","name":"アヤムケチャップ","emoji":"🍗","genre":"インドネシア","meals":["昼食","夕食"],"tags":["簡単","高タンパク"],"minutes":30,"ingredients":[{"name":"鶏もも肉","qty":150,"unit":"g","group":"肉・魚"},{"name":"玉ねぎ","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"ケチャップマニス","qty":25,"unit":"ml","group":"その他"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"id07","name":"トゥミスカンクン","emoji":"🥬","genre":"インドネシア","meals":["昼食","夕食"],"tags":["簡単","野菜多め","節約","辛いものOK"],"minutes":15,"ingredients":[{"name":"空芯菜","qty":150,"unit":"g","group":"野菜・きのこ"},{"name":"にんにく","qty":5,"unit":"g","group":"野菜・きのこ"},{"name":"唐辛子","qty":5,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"id08","name":"テルルバラド","emoji":"🥚","genre":"インドネシア","meals":["昼食","夕食"],"tags":["節約","辛いものOK"],"minutes":25,"ingredients":[{"name":"卵","qty":2,"unit":"個","group":"卵・乳製品"},{"name":"トマト","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"唐辛子","qty":8,"unit":"g","group":"野菜・きのこ"},{"name":"玉ねぎ","qty":40,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"id09","name":"ブブルアヤム","emoji":"🥣","genre":"インドネシア","meals":["朝食"],"tags":["簡単","節約"],"minutes":30,"ingredients":[{"name":"米","qty":80,"unit":"g","group":"その他"},{"name":"鶏むね肉","qty":70,"unit":"g","group":"肉・魚"},{"name":"ねぎ","qty":10,"unit":"g","group":"野菜・きのこ"},{"name":"卵","qty":0.5,"unit":"個","group":"卵・乳製品"}]},{"id":"id10","name":"チャプチャイ","emoji":"🥦","genre":"インドネシア","meals":["昼食","夕食"],"tags":["野菜多め","簡単"],"minutes":25,"ingredients":[{"name":"鶏むね肉","qty":80,"unit":"g","group":"肉・魚"},{"name":"キャベツ","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"ブロッコリー","qty":70,"unit":"g","group":"野菜・きのこ"}]},{"id":"id11","name":"サテアヤム","emoji":"🍢","genre":"インドネシア","meals":["昼食","夕食"],"tags":["高タンパク"],"minutes":35,"ingredients":[{"name":"鶏むね肉","qty":160,"unit":"g","group":"肉・魚"},{"name":"ピーナッツソース","qty":35,"unit":"g","group":"その他"},{"name":"米","qty":120,"unit":"g","group":"その他"},{"name":"きゅうり","qty":50,"unit":"g","group":"野菜・きのこ"}]},{"id":"id12","name":"ナシウドゥック簡単版","emoji":"🍚","genre":"インドネシア","meals":["朝食","昼食"],"tags":["節約"],"minutes":30,"ingredients":[{"name":"米","qty":120,"unit":"g","group":"その他"},{"name":"ココナッツミルク","qty":80,"unit":"ml","group":"その他"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"きゅうり","qty":50,"unit":"g","group":"野菜・きのこ"}]},{"id":"zh01","name":"トマトと卵の炒め物","emoji":"🍅","genre":"中華","meals":["朝食","昼食","夕食"],"tags":["簡単","節約"],"minutes":15,"ingredients":[{"name":"トマト","qty":150,"unit":"g","group":"野菜・きのこ"},{"name":"卵","qty":2,"unit":"個","group":"卵・乳製品"},{"name":"ねぎ","qty":10,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"zh02","name":"麻婆豆腐","emoji":"🌶️","genre":"中華","meals":["昼食","夕食"],"tags":["簡単","辛いものOK"],"minutes":25,"ingredients":[{"name":"木綿豆腐","qty":180,"unit":"g","group":"その他"},{"name":"豚ひき肉","qty":80,"unit":"g","group":"肉・魚"},{"name":"ねぎ","qty":20,"unit":"g","group":"野菜・きのこ"},{"name":"豆板醤","qty":10,"unit":"g","group":"その他"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"zh03","name":"青椒肉絲","emoji":"🫑","genre":"中華","meals":["昼食","夕食"],"tags":["高タンパク","野菜多め"],"minutes":25,"ingredients":[{"name":"豚こま肉","qty":120,"unit":"g","group":"肉・魚"},{"name":"ピーマン","qty":100,"unit":"g","group":"野菜・きのこ"},{"name":"たけのこ","qty":70,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"zh04","name":"回鍋肉","emoji":"🥬","genre":"中華","meals":["昼食","夕食"],"tags":["野菜多め","辛いものOK"],"minutes":25,"ingredients":[{"name":"豚こま肉","qty":120,"unit":"g","group":"肉・魚"},{"name":"キャベツ","qty":150,"unit":"g","group":"野菜・きのこ"},{"name":"ピーマン","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"味噌","qty":10,"unit":"g","group":"その他"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"zh05","name":"餃子と野菜スープ","emoji":"🥟","genre":"中華","meals":["夕食"],"tags":["野菜多め"],"minutes":35,"ingredients":[{"name":"豚ひき肉","qty":100,"unit":"g","group":"肉・魚"},{"name":"キャベツ","qty":100,"unit":"g","group":"野菜・きのこ"},{"name":"餃子の皮","qty":12,"unit":"枚","group":"その他"},{"name":"にら","qty":30,"unit":"g","group":"野菜・きのこ"}]},{"id":"zh06","name":"中華粥","emoji":"🥣","genre":"中華","meals":["朝食"],"tags":["簡単","節約"],"minutes":25,"ingredients":[{"name":"米","qty":80,"unit":"g","group":"その他"},{"name":"鶏むね肉","qty":60,"unit":"g","group":"肉・魚"},{"name":"ねぎ","qty":10,"unit":"g","group":"野菜・きのこ"},{"name":"しょうが","qty":5,"unit":"g","group":"野菜・きのこ"}]},{"id":"zh07","name":"鶏肉とカシューナッツ炒め","emoji":"🥜","genre":"中華","meals":["昼食","夕食"],"tags":["高タンパク"],"minutes":25,"ingredients":[{"name":"鶏むね肉","qty":140,"unit":"g","group":"肉・魚"},{"name":"ピーマン","qty":70,"unit":"g","group":"野菜・きのこ"},{"name":"玉ねぎ","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"カシューナッツ","qty":25,"unit":"g","group":"その他"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"zh08","name":"八宝菜","emoji":"🥦","genre":"中華","meals":["昼食","夕食"],"tags":["野菜多め"],"minutes":30,"ingredients":[{"name":"豚こま肉","qty":80,"unit":"g","group":"肉・魚"},{"name":"白菜","qty":120,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":40,"unit":"g","group":"野菜・きのこ"},{"name":"きくらげ","qty":10,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"zh09","name":"チャーハン","emoji":"🍚","genre":"中華","meals":["朝食","昼食","夕食"],"tags":["簡単","節約"],"minutes":15,"ingredients":[{"name":"米","qty":120,"unit":"g","group":"その他"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"ねぎ","qty":20,"unit":"g","group":"野菜・きのこ"},{"name":"ハム","qty":40,"unit":"g","group":"肉・魚"}]},{"id":"zh10","name":"棒棒鶏","emoji":"🥗","genre":"中華","meals":["昼食","夕食"],"tags":["高タンパク","野菜多め"],"minutes":25,"ingredients":[{"name":"鶏むね肉","qty":150,"unit":"g","group":"肉・魚"},{"name":"きゅうり","qty":100,"unit":"g","group":"野菜・きのこ"},{"name":"ごまドレッシング","qty":30,"unit":"ml","group":"その他"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"zh11","name":"酸辣湯","emoji":"🍲","genre":"中華","meals":["昼食","夕食"],"tags":["野菜多め","辛いものOK"],"minutes":25,"ingredients":[{"name":"木綿豆腐","qty":80,"unit":"g","group":"その他"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"しいたけ","qty":40,"unit":"g","group":"野菜・きのこ"},{"name":"たけのこ","qty":50,"unit":"g","group":"野菜・きのこ"}]},{"id":"zh12","name":"蒸し鶏ねぎソース","emoji":"🍗","genre":"中華","meals":["昼食","夕食"],"tags":["簡単","高タンパク"],"minutes":25,"ingredients":[{"name":"鶏むね肉","qty":160,"unit":"g","group":"肉・魚"},{"name":"ねぎ","qty":40,"unit":"g","group":"野菜・きのこ"},{"name":"きゅうり","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"}]},{"id":"we01","name":"チーズオムレツトースト","emoji":"🍳","genre":"洋食","meals":["朝食"],"tags":["簡単","高タンパク"],"minutes":15,"ingredients":[{"name":"卵","qty":2,"unit":"個","group":"卵・乳製品"},{"name":"チーズ","qty":30,"unit":"g","group":"卵・乳製品"},{"name":"食パン","qty":2,"unit":"枚","group":"その他"},{"name":"トマト","qty":80,"unit":"g","group":"野菜・きのこ"}]},{"id":"we02","name":"ヨーグルトバナナボウル","emoji":"🥣","genre":"洋食","meals":["朝食"],"tags":["簡単","節約"],"minutes":5,"ingredients":[{"name":"ヨーグルト","qty":150,"unit":"g","group":"卵・乳製品"},{"name":"バナナ","qty":1,"unit":"本","group":"野菜・きのこ"},{"name":"オートミール","qty":30,"unit":"g","group":"その他"}]},{"id":"we03","name":"チキンサンド","emoji":"🥪","genre":"洋食","meals":["朝食","昼食"],"tags":["簡単","高タンパク"],"minutes":15,"ingredients":[{"name":"食パン","qty":2,"unit":"枚","group":"その他"},{"name":"鶏むね肉","qty":100,"unit":"g","group":"肉・魚"},{"name":"レタス","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"トマト","qty":50,"unit":"g","group":"野菜・きのこ"}]},{"id":"we04","name":"ミートソースパスタ","emoji":"🍝","genre":"洋食","meals":["昼食","夕食"],"tags":["簡単"],"minutes":30,"ingredients":[{"name":"パスタ","qty":100,"unit":"g","group":"その他"},{"name":"合いびき肉","qty":100,"unit":"g","group":"肉・魚"},{"name":"玉ねぎ","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"トマト缶","qty":120,"unit":"g","group":"野菜・きのこ"}]},{"id":"we05","name":"チキンカレー","emoji":"🍛","genre":"洋食","meals":["昼食","夕食"],"tags":["節約","野菜多め"],"minutes":35,"ingredients":[{"name":"鶏もも肉","qty":120,"unit":"g","group":"肉・魚"},{"name":"じゃがいも","qty":100,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"玉ねぎ","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"米","qty":120,"unit":"g","group":"その他"},{"name":"カレールー","qty":20,"unit":"g","group":"その他"}]},{"id":"we06","name":"ツナトマトパスタ","emoji":"🍝","genre":"洋食","meals":["昼食","夕食"],"tags":["簡単","節約"],"minutes":20,"ingredients":[{"name":"パスタ","qty":100,"unit":"g","group":"その他"},{"name":"ツナ缶","qty":70,"unit":"g","group":"肉・魚"},{"name":"トマト缶","qty":120,"unit":"g","group":"野菜・きのこ"},{"name":"玉ねぎ","qty":50,"unit":"g","group":"野菜・きのこ"}]},{"id":"we07","name":"鶏むね肉のグリル","emoji":"🍗","genre":"洋食","meals":["昼食","夕食"],"tags":["高タンパク","野菜多め"],"minutes":30,"ingredients":[{"name":"鶏むね肉","qty":180,"unit":"g","group":"肉・魚"},{"name":"ブロッコリー","qty":100,"unit":"g","group":"野菜・きのこ"},{"name":"じゃがいも","qty":120,"unit":"g","group":"野菜・きのこ"}]},{"id":"we08","name":"ミネストローネ","emoji":"🥣","genre":"洋食","meals":["朝食","夕食"],"tags":["野菜多め","節約"],"minutes":30,"ingredients":[{"name":"トマト缶","qty":120,"unit":"g","group":"野菜・きのこ"},{"name":"キャベツ","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"玉ねぎ","qty":50,"unit":"g","group":"野菜・きのこ"},{"name":"豆","qty":50,"unit":"g","group":"その他"}]},{"id":"we09","name":"ハンバーグプレート","emoji":"🍽️","genre":"洋食","meals":["昼食","夕食"],"tags":["高タンパク"],"minutes":35,"ingredients":[{"name":"合いびき肉","qty":150,"unit":"g","group":"肉・魚"},{"name":"玉ねぎ","qty":60,"unit":"g","group":"野菜・きのこ"},{"name":"卵","qty":0.5,"unit":"個","group":"卵・乳製品"},{"name":"じゃがいも","qty":100,"unit":"g","group":"野菜・きのこ"}]},{"id":"we10","name":"シーザー風チキンサラダ","emoji":"🥗","genre":"洋食","meals":["昼食","夕食"],"tags":["高タンパク","野菜多め"],"minutes":20,"ingredients":[{"name":"鶏むね肉","qty":140,"unit":"g","group":"肉・魚"},{"name":"レタス","qty":120,"unit":"g","group":"野菜・きのこ"},{"name":"トマト","qty":80,"unit":"g","group":"野菜・きのこ"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"チーズ","qty":20,"unit":"g","group":"卵・乳製品"}]},{"id":"we11","name":"ポトフ","emoji":"🍲","genre":"洋食","meals":["夕食"],"tags":["野菜多め","節約"],"minutes":35,"ingredients":[{"name":"ソーセージ","qty":100,"unit":"g","group":"肉・魚"},{"name":"キャベツ","qty":120,"unit":"g","group":"野菜・きのこ"},{"name":"じゃがいも","qty":120,"unit":"g","group":"野菜・きのこ"},{"name":"にんじん","qty":60,"unit":"g","group":"野菜・きのこ"}]},{"id":"we12","name":"フレンチトースト","emoji":"🍞","genre":"洋食","meals":["朝食"],"tags":["簡単","節約"],"minutes":15,"ingredients":[{"name":"食パン","qty":2,"unit":"枚","group":"その他"},{"name":"卵","qty":1,"unit":"個","group":"卵・乳製品"},{"name":"牛乳","qty":100,"unit":"ml","group":"卵・乳製品"},{"name":"バナナ","qty":0.5,"unit":"本","group":"野菜・きのこ"}]}];
+window.RECIPES = [
+  {
+    "id": "ja01",
+    "name": "おにぎりと味噌汁",
+    "emoji": "🍙",
+    "genre": "和食",
+    "meals": [
+      "朝食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 15,
+    "ingredients": [
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "わかめ",
+        "qty": 2,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 10,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 200,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "炊いたご飯を少し冷まし、塩をつけた手でおにぎりにする。",
+      "だし汁でわかめと刻んだねぎを煮る。火を止めて味噌を溶く。",
+      "おにぎりと味噌汁を盛り付ける。"
+    ],
+    "notes": "乾燥わかめは袋の表示に従って戻す。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja02",
+    "name": "卵かけご飯と味噌汁",
+    "emoji": "🥚",
+    "genre": "和食",
+    "meals": [
+      "朝食"
+    ],
+    "tags": [
+      "簡単",
+      "節約",
+      "高タンパク"
+    ],
+    "minutes": 10,
+    "ingredients": [
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆腐",
+        "qty": 50,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 10,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 200,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "だし汁で角切りの豆腐と刻んだねぎを温め、火を止めて味噌を溶く。",
+      "炊いたご飯に卵を割り入れ、醤油を加えて混ぜる。",
+      "味噌汁を添えてすぐ食べる。"
+    ],
+    "notes": "生食に適した卵を使用する。加熱が必要な卵は炒り卵にして添える。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja03",
+    "name": "焼き鮭定食",
+    "emoji": "🐟",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 100,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "大根",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 200,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鮭に塩を振り、グリルで両面を焼いて中心まで火を通す。",
+      "大根の半量をすりおろし、水気を軽く切る。残りは薄切りにする。",
+      "だし汁で薄切りの大根を柔らかく煮て、火を止め味噌を溶く。",
+      "炊いたご飯、鮭、大根おろし、味噌汁を盛る。"
+    ],
+    "notes": "塩鮭を使う場合は追加の塩を控える。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja04",
+    "name": "親子丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "高タンパク"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉を小さめの一口大、玉ねぎを薄切りにする。",
+      "だし汁、醤油、みりん、砂糖を煮立て、玉ねぎと鶏肉を入れて中心まで火を通す。",
+      "溶き卵を回し入れ、ふたをして好みの固さまで加熱する。",
+      "炊いたご飯にのせる。"
+    ],
+    "notes": "卵の加熱具合は食べる人に合わせて調整する。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja05",
+    "name": "鶏の照り焼き定食",
+    "emoji": "🍗",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 150,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "キャベツを千切りにする。鶏肉の厚い部分を開く。",
+      "油を熱したフライパンで鶏肉を皮側から焼き、裏返してふたをし中心まで火を通す。",
+      "余分な脂を拭き、醤油、みりん、砂糖を加えて煮絡める。",
+      "切り分けてキャベツと炊いたご飯を添える。"
+    ],
+    "notes": "たれが焦げそうな場合は水を少量加える。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja06",
+    "name": "肉じゃが",
+    "emoji": "🥔",
+    "genre": "和食",
+    "meals": [
+      "夕食"
+    ],
+    "tags": [
+      "節約",
+      "野菜多め"
+    ],
+    "minutes": 40,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 100,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "じゃがいも",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 6,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "じゃがいも、にんじんを一口大、玉ねぎをくし切りにする。",
+      "鍋に油を熱し、豚肉を炒めて野菜を加える。",
+      "だし汁と調味料を入れ、落としぶたをして弱めの中火で20分ほど煮る。",
+      "肉に火が通り、じゃがいもが柔らかくなったら火を止める。"
+    ],
+    "notes": "少し置くと味がなじむ。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja07",
+    "name": "豚の生姜焼き",
+    "emoji": "🥩",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "高タンパク"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 150,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "玉ねぎは薄切り、キャベツは千切り、しょうがはすりおろす。",
+      "油を熱して豚肉と玉ねぎを炒め、肉に火を通す。",
+      "しょうが、醤油、みりんを加えて煮絡める。",
+      "キャベツと炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げながら炒める。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja08",
+    "name": "焼きうどん",
+    "emoji": "🍜",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "節約",
+      "野菜多め"
+    ],
+    "minutes": 20,
+    "ingredients": [
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "豚こま肉",
+        "qty": 80,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 30,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "豚肉とキャベツを食べやすく切り、にんじんを短冊切りにする。",
+      "油で豚肉を炒め、火が通ったら野菜を加える。",
+      "うどんと水を加えてほぐしながら炒める。",
+      "醤油を加え、水分を飛ばす。"
+    ],
+    "notes": "うどんは袋の表示に従って下ゆでする。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja09",
+    "name": "豆腐ハンバーグ",
+    "emoji": "🍽️",
+    "genre": "和食",
+    "meals": [
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク",
+      "節約"
+    ],
+    "minutes": 35,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏ひき肉",
+        "qty": 100,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 0.5,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "パン粉",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ポン酢",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "豆腐を水切りし、玉ねぎをみじん切りにする。",
+      "豆腐、鶏ひき肉、玉ねぎ、卵、パン粉、塩をよく混ぜて成形する。",
+      "油を熱して両面に焼き色をつけ、ふたをして中心まで火を通す。",
+      "ポン酢を添える。"
+    ],
+    "notes": "たねが柔らかければパン粉を少し足す。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja10",
+    "name": "野菜たっぷり豚汁",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "節約"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 70,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "大根",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "味噌",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "大根とにんじんをいちょう切り、ごぼうを薄切りにし、豚肉を食べやすく切る。",
+      "油で豚肉と野菜を炒め、だし汁を加える。",
+      "あくを取り、肉に火が通り野菜が柔らかくなるまで煮る。",
+      "火を止めて味噌を溶く。"
+    ],
+    "notes": "ごぼうは洗って土を落とす。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja11",
+    "name": "そぼろ丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "高タンパク"
+    ],
+    "minutes": 20,
+    "ingredients": [
+      {
+        "name": "鶏ひき肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 10,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鍋に鶏ひき肉と醤油、みりん、砂糖を入れ、ほぐしながら中心まで加熱する。",
+      "別のフライパンに油を熱し、溶き卵を入れて炒り卵にする。",
+      "炊いたご飯に肉そぼろと炒り卵をのせ、刻んだねぎを散らす。"
+    ],
+    "notes": "そぼろは汁気が少なくなるまで炒る。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ja12",
+    "name": "冷やしうどん",
+    "emoji": "🥢",
+    "genre": "和食",
+    "meals": [
+      "昼食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 15,
+    "ingredients": [
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "きゅうり",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "めんつゆ",
+        "qty": 30,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "卵を水からゆで、沸騰後10分ほど加熱して冷まし、殻をむく。きゅうりを千切りにする。",
+      "うどんを袋の表示どおりゆで、流水で冷やして水気を切る。",
+      "めんつゆを水で薄める。",
+      "うどんに具を盛り、つゆをかける。"
+    ],
+    "notes": "水は3倍濃縮めんつゆの目安。製品表示に合わせる。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id01",
+    "name": "ナシゴレン",
+    "emoji": "🍳",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "辛いものOK"
+    ],
+    "minutes": 20,
+    "ingredients": [
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "鶏むね肉",
+        "qty": 80,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "玉ねぎとにんにくを刻み、鶏肉を小さく切る。",
+      "油の半量で目玉焼きを焼き、取り出す。",
+      "残りの油でにんにく、玉ねぎ、鶏肉を炒め、肉に火を通す。",
+      "炊いたご飯、ケチャップマニス、醤油を入れて炒め、目玉焼きをのせる。"
+    ],
+    "notes": "辛くしたい場合は好みで唐辛子を追加する。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id02",
+    "name": "ミーゴレン",
+    "emoji": "🍜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "辛いものOK"
+    ],
+    "minutes": 20,
+    "ingredients": [
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏むね肉",
+        "qty": 70,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 30,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉とキャベツを一口大、にんにくをみじん切りにする。麺は袋の表示に従って準備する。",
+      "油でにんにくと鶏肉を炒め、肉に火が通ったらキャベツを加える。",
+      "溶き卵を加えて炒め、麺と水を加えてほぐす。",
+      "ケチャップマニスと醤油で味を調える。"
+    ],
+    "notes": "麺を入れたら手早く炒める。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id03",
+    "name": "アヤムゴレン",
+    "emoji": "🍗",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク"
+    ],
+    "minutes": 35,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 180,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "にんにく",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "揚げ油",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉にすりおろしたにんにく、ターメリック、塩をもみ込む。",
+      "鍋に鶏肉と水を入れ、ふたをして中心まで煮る。",
+      "汁気を切り、表面の水分を拭く。",
+      "深さのある鍋で油を熱し、鶏肉を返しながら揚げ焼きして、ご飯を添える。"
+    ],
+    "notes": "揚げ油の量は鍋に合わせる。材料欄は使用量の目安。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id04",
+    "name": "ソトアヤム",
+    "emoji": "🥘",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク",
+      "野菜多め"
+    ],
+    "minutes": 40,
+    "ingredients": [
+      {
+        "name": "鶏むね肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "もやし",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "春雨",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "卵",
+        "qty": 0.5,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "卵を固ゆでにし、春雨は袋の表示どおり戻す。野菜を切る。",
+      "水、スープの素、刻んだにんにく、ターメリックで鶏肉を中心まで煮る。",
+      "鶏肉を取り出してほぐし、鍋に戻してキャベツともやしを煮る。",
+      "春雨を器に入れ、スープを注ぎ、卵を添えて塩で調える。"
+    ],
+    "notes": "家庭で作りやすい簡略版。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id05",
+    "name": "ガドガド",
+    "emoji": "🥗",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "節約"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "キャベツ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "もやし",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 40,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 20,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "卵を固ゆでにし、殻をむいて切る。",
+      "キャベツとにんじんを切り、もやしとともにゆでて水気を切る。",
+      "ピーナッツソースを水でのばす。",
+      "野菜と卵を盛り、ソースをかける。"
+    ],
+    "notes": "ソースの濃さは製品に合わせて水を調整する。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id06",
+    "name": "アヤムケチャップ",
+    "emoji": "🍗",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "高タンパク"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 150,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 25,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉を一口大、玉ねぎを薄切り、にんにくをみじん切りにする。",
+      "油でにんにくと鶏肉を炒め、玉ねぎを加える。",
+      "ケチャップマニス、醤油、水を加え、ふたをして鶏肉の中心まで煮る。",
+      "たれを軽く煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "甘味の強いインドネシア風の鶏煮込み。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id07",
+    "name": "トゥミスカンクン",
+    "emoji": "🥬",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "節約",
+      "辛いものOK"
+    ],
+    "minutes": 15,
+    "ingredients": [
+      {
+        "name": "空芯菜",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "空芯菜を洗って茎と葉を分けて切り、にんにくと唐辛子を刻む。",
+      "油でにんにくと唐辛子を炒める。",
+      "茎、葉の順に入れ、オイスターソースを加えて手早く炒める。",
+      "炊いたご飯を添える。"
+    ],
+    "notes": "辛味は唐辛子の量で調整する。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id08",
+    "name": "テルルバラド",
+    "emoji": "🥚",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "節約",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "卵",
+        "qty": 2,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "トマト",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 8,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 30,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "卵を固ゆでにし、殻をむく。",
+      "トマト、玉ねぎ、唐辛子、にんにくを細かく刻む。",
+      "油で刻んだ具を炒め、水、塩、砂糖を加えてとろりとするまで煮る。",
+      "卵を加えて絡め、炊いたご飯を添える。"
+    ],
+    "notes": "唐辛子は好みで減らせる。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id09",
+    "name": "ブブルアヤム",
+    "emoji": "🥣",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "米",
+        "qty": 80,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏むね肉",
+        "qty": 70,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 10,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 0.5,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "水",
+        "qty": 600,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "米を洗う。卵を固ゆでにし、ねぎを刻む。",
+      "鍋に米、水、スープの素、鶏肉を入れて火にかける。",
+      "鶏肉の中心まで火が通ったら取り出してほぐす。米は弱火で時々混ぜながら柔らかく煮る。",
+      "塩で調え、鶏肉、卵、ねぎをのせる。"
+    ],
+    "notes": "米が硬ければ湯を足して加熱を延ばす。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id10",
+    "name": "チャプチャイ",
+    "emoji": "🥦",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "簡単"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "鶏むね肉",
+        "qty": 80,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 70,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉を一口大、野菜を食べやすく切る。",
+      "油で鶏肉を炒め、にんじん、ブロッコリー、キャベツの順に加える。",
+      "水の大部分と調味料を加え、肉と野菜に火を通す。",
+      "残りの水で片栗粉を溶いて加え、混ぜながら十分煮立てる。"
+    ],
+    "notes": "家庭向けの中華風野菜あん。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id11",
+    "name": "サテアヤム",
+    "emoji": "🍢",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク"
+    ],
+    "minutes": 35,
+    "ingredients": [
+      {
+        "name": "鶏むね肉",
+        "qty": 160,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 35,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "きゅうり",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉を小さく切り、ケチャップマニスをもみ込む。",
+      "竹串を使う場合は水につけておき、肉を刺す。",
+      "油を熱したフライパンで返しながら焼き、ふたをして中心まで火を通す。",
+      "水でのばしたピーナッツソースを添え、ご飯と切ったきゅうりを盛る。"
+    ],
+    "notes": "串を使わずに焼いてもよい。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "id12",
+    "name": "ナシウドゥック簡単版",
+    "emoji": "🍚",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "昼食"
+    ],
+    "tags": [
+      "節約"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "きゅうり",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "米を洗い、炊飯器にココナッツミルク、水、塩とともに入れる。",
+      "通常の炊飯で炊き、炊き上がったらほぐす。",
+      "卵を固ゆでにして切り、きゅうりを薄切りにする。",
+      "ご飯に卵ときゅうりを添える。"
+    ],
+    "notes": "水分量は米と炊飯器に合わせて調整。時間は炊飯方式により延びる。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh01",
+    "name": "トマトと卵の炒め物",
+    "emoji": "🍅",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 15,
+    "ingredients": [
+      {
+        "name": "トマト",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 2,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 10,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "トマトをくし切り、ねぎを小口切りにし、卵を溶く。",
+      "油の半量で卵をふんわり炒めて取り出す。",
+      "残りの油でトマトを炒め、塩と砂糖を加える。",
+      "卵を戻して混ぜ、ねぎを散らしてご飯を添える。"
+    ],
+    "notes": "トマトから出る汁も一緒に味わう。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh02",
+    "name": "麻婆豆腐",
+    "emoji": "🌶️",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豚ひき肉",
+        "qty": 80,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 20,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "豆腐を角切り、ねぎとにんにくをみじん切りにする。",
+      "油でひき肉を炒めて火を通し、にんにく、豆板醤を加える。",
+      "水の大部分、醤油、スープの素、豆腐を加えて5分ほど煮る。",
+      "残りの水で溶いた片栗粉を加えて煮立て、ねぎを加えてご飯を添える。"
+    ],
+    "notes": "豆板醤は辛さに合わせて減らせる。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh03",
+    "name": "青椒肉絲",
+    "emoji": "🫑",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "たけのこ",
+        "qty": 70,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "肉、ピーマン、たけのこを細切りにする。肉に片栗粉をまぶす。",
+      "油で肉を炒め、火が通ったらたけのことピーマンを加える。",
+      "醤油とオイスターソースを加えて炒め合わせる。",
+      "炊いたご飯を添える。"
+    ],
+    "notes": "たけのこは水煮を使用する。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh04",
+    "name": "回鍋肉",
+    "emoji": "🥬",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "肉と野菜を一口大に切る。味噌、醤油、砂糖、豆板醤、水を混ぜる。",
+      "油で豚肉を炒めて火を通す。",
+      "野菜を加えて炒め、合わせた調味料を絡める。",
+      "炊いたご飯を添える。"
+    ],
+    "notes": "辛さは豆板醤で調整する。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh05",
+    "name": "餃子と野菜スープ",
+    "emoji": "🥟",
+    "genre": "中華",
+    "meals": [
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 35,
+    "ingredients": [
+      {
+        "name": "豚ひき肉",
+        "qty": 100,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "餃子の皮",
+        "qty": 12,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "にら",
+        "qty": 30,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "キャベツの半量とにらを刻み、豚ひき肉、醤油、ごま油、すりおろしたしょうがを練り混ぜる。",
+      "皮で包み、油を熱したフライパンに並べる。水の約3分の1を加えてふたをし、肉の中心まで蒸し焼きにする。",
+      "ふたを外して水気を飛ばす。",
+      "残りのキャベツ、水、スープの素を鍋で煮てスープにする。"
+    ],
+    "notes": "皮の大きさに合わせてたねを分ける。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh06",
+    "name": "中華粥",
+    "emoji": "🥣",
+    "genre": "中華",
+    "meals": [
+      "朝食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "米",
+        "qty": 80,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏むね肉",
+        "qty": 60,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 10,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "水",
+        "qty": 600,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "米を洗い、鶏肉を小さく切り、しょうがを千切りにする。",
+      "鍋に米、水、鶏肉、しょうがを入れて沸騰させる。",
+      "弱火で時々混ぜ、米が柔らかくなり鶏肉に火が通るまで煮る。",
+      "塩で調え、刻んだねぎを散らす。"
+    ],
+    "notes": "米が硬ければ水と加熱時間を追加する。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh07",
+    "name": "鶏肉とカシューナッツ炒め",
+    "emoji": "🥜",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "鶏むね肉",
+        "qty": 140,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 70,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "カシューナッツ",
+        "qty": 25,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉、玉ねぎ、ピーマンを角切りにし、鶏肉に片栗粉をまぶす。",
+      "油で鶏肉を中心まで炒め、玉ねぎとピーマンを加える。",
+      "カシューナッツと調味料を入れて炒め合わせる。",
+      "炊いたご飯を添える。"
+    ],
+    "notes": "無塩のローストカシューナッツを使用する。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh08",
+    "name": "八宝菜",
+    "emoji": "🥦",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 80,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "きくらげ",
+        "qty": 10,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "肉と野菜を食べやすく切る。乾燥きくらげは袋の表示に従って戻す。",
+      "油で肉を炒めて火を通し、にんじん、白菜、きくらげを加える。",
+      "水の大部分、スープの素、醤油を加えて野菜が柔らかくなるまで煮る。",
+      "残りの水で溶いた片栗粉を加え、十分煮立て、ご飯を添える。"
+    ],
+    "notes": "具材を絞った家庭向けの簡略版。きくらげの分量は戻した後の重量。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh09",
+    "name": "チャーハン",
+    "emoji": "🍚",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 15,
+    "ingredients": [
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 20,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ハム",
+        "qty": 40,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "ハムとねぎを刻み、卵を溶く。",
+      "油を熱したフライパンに卵を入れ、炊いたご飯を加えてほぐす。",
+      "ハムとねぎを加え、ご飯がほぐれるまで炒める。",
+      "醤油と塩で調える。"
+    ],
+    "notes": "温かいご飯を使うとほぐしやすい。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh10",
+    "name": "棒棒鶏",
+    "emoji": "🥗",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "鶏むね肉",
+        "qty": 150,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "きゅうり",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ごまドレッシング",
+        "qty": 30,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 400,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鍋に鶏肉とかぶる程度の水を入れて加熱し、中心まで火を通す。",
+      "鶏肉を取り出して粗熱を取り、手でほぐす。",
+      "きゅうりを千切りにして鶏肉をのせる。",
+      "ごまドレッシングをかけ、炊いたご飯を添える。"
+    ],
+    "notes": "ゆでた鶏肉は長時間常温に置かない。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh11",
+    "name": "酸辣湯",
+    "emoji": "🍲",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 80,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "しいたけ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "たけのこ",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "水",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ラー油",
+        "qty": 1,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "豆腐、しいたけ、たけのこを細切りにする。",
+      "水の大部分とスープの素を煮立て、切った具と醤油を入れて火を通す。",
+      "残りの水で片栗粉を溶いて加え、煮立ててとろみをつける。",
+      "溶き卵を流して加熱し、酢とラー油を加える。"
+    ],
+    "notes": "辛味と酸味は最後に調整する。 分量・調理時間は目安。"
+  },
+  {
+    "id": "zh12",
+    "name": "蒸し鶏ねぎソース",
+    "emoji": "🍗",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "高タンパク"
+    ],
+    "minutes": 25,
+    "ingredients": [
+      {
+        "name": "鶏むね肉",
+        "qty": 160,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "きゅうり",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉の厚い部分を開き、耐熱皿に水とともに入れる。",
+      "蒸し器で中心まで蒸す。加熱不足なら追加で蒸す。",
+      "刻んだねぎ、しょうが、醤油、酢、ごま油を混ぜる。",
+      "切ったきゅうりと鶏肉を盛り、ソースをかけてご飯を添える。"
+    ],
+    "notes": "蒸し時間は肉の厚さで変わる。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we01",
+    "name": "チーズオムレツトースト",
+    "emoji": "🍳",
+    "genre": "洋食",
+    "meals": [
+      "朝食"
+    ],
+    "tags": [
+      "簡単",
+      "高タンパク"
+    ],
+    "minutes": 15,
+    "ingredients": [
+      {
+        "name": "卵",
+        "qty": 2,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 30,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "卵に塩を加えて溶き、チーズを混ぜる。",
+      "油を熱したフライパンで卵液を焼き、折りたたんで中まで加熱する。",
+      "食パンをトーストする。",
+      "オムレツと切ったトマトを添える。"
+    ],
+    "notes": "チーズの塩気に合わせて塩を調整する。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we02",
+    "name": "ヨーグルトバナナボウル",
+    "emoji": "🥣",
+    "genre": "洋食",
+    "meals": [
+      "朝食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 5,
+    "ingredients": [
+      {
+        "name": "ヨーグルト",
+        "qty": 150,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "バナナ",
+        "qty": 1,
+        "unit": "本",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オートミール",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "オートミールは製品表示を確認し、そのまま食べられない製品は表示どおり加熱して冷ます。",
+      "バナナを輪切りにする。",
+      "器にヨーグルト、オートミール、バナナを盛る。"
+    ],
+    "notes": "オートミールの種類により準備時間が変わる。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we03",
+    "name": "チキンサンド",
+    "emoji": "🥪",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "昼食"
+    ],
+    "tags": [
+      "簡単",
+      "高タンパク"
+    ],
+    "minutes": 15,
+    "ingredients": [
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "鶏むね肉",
+        "qty": 100,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "レタス",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "トマト",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "マヨネーズ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉を薄く開いて塩を振り、油を熱したフライパンで両面を中心まで焼く。",
+      "粗熱を取って薄く切る。レタスを洗って水気を拭き、トマトを薄切りにする。",
+      "パンにマヨネーズを塗り、野菜と鶏肉を挟んで切る。"
+    ],
+    "notes": "野菜の水気をよく拭くとパンがべたつきにくい。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we04",
+    "name": "ミートソースパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "合いびき肉",
+        "qty": 100,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オリーブ油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "玉ねぎをみじん切りにする。",
+      "油でひき肉と玉ねぎを炒め、肉に火が通ったらトマト缶、水、塩を加え15分ほど煮る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。",
+      "湯を切り、ソースと絡める。"
+    ],
+    "notes": "パスタのゆで湯は材料欄とは別に用意する。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we05",
+    "name": "チキンカレー",
+    "emoji": "🍛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "節約",
+      "野菜多め"
+    ],
+    "minutes": 35,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "じゃがいも",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "米",
+        "qty": 120,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "カレールー",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 200,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉と野菜を一口大に切る。",
+      "鍋に油を熱し、鶏肉と野菜を炒めて水を加える。",
+      "肉に火が通り野菜が柔らかくなるまで煮る。",
+      "火を止めてルーを溶かし、再び弱火でとろみが出るまで煮てご飯にかける。"
+    ],
+    "notes": "水の量はルーの製品表示に合わせる。 米の重量は炊く前。ご飯は先に炊いて用意し、炊飯時間は調理時間に含まない。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we06",
+    "name": "ツナトマトパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 20,
+    "ingredients": [
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ツナ缶",
+        "qty": 70,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オリーブ油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "玉ねぎを薄切りにする。パスタを袋の表示どおりゆでる。",
+      "油で玉ねぎを炒め、ツナとトマト缶を加えて10分ほど煮る。",
+      "塩で味を調える。",
+      "湯を切ったパスタと絡める。"
+    ],
+    "notes": "ツナ缶の汁は好みで切る。ゆで湯は別途用意する。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we07",
+    "name": "鶏むね肉のグリル",
+    "emoji": "🍗",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク",
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "鶏むね肉",
+        "qty": 180,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "じゃがいも",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "こしょう",
+        "qty": 0.2,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "鶏肉の厚い部分を開き、塩とこしょうを振る。",
+      "じゃがいもを一口大に切って柔らかくゆで、ブロッコリーもゆでる。",
+      "油を熱したフライパンで鶏肉の両面を焼き、ふたをして中心まで火を通す。",
+      "食べやすく切り、野菜を添える。"
+    ],
+    "notes": "焼いた後少し休ませると切りやすい。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we08",
+    "name": "ミネストローネ",
+    "emoji": "🥣",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "節約"
+    ],
+    "minutes": 30,
+    "ingredients": [
+      {
+        "name": "トマト缶",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 50,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "豆",
+        "qty": 50,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 250,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オリーブ油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "キャベツ、にんじん、玉ねぎを小さな角切りにする。",
+      "鍋に油を熱して野菜を炒める。",
+      "トマト缶、水、コンソメ、豆を加える。",
+      "弱火で野菜が柔らかくなるまで20分ほど煮る。"
+    ],
+    "notes": "豆は水煮または加熱済みのものを使用する。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we09",
+    "name": "ハンバーグプレート",
+    "emoji": "🍽️",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク"
+    ],
+    "minutes": 35,
+    "ingredients": [
+      {
+        "name": "合いびき肉",
+        "qty": 150,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 0.5,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "じゃがいも",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "パン粉",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "中濃ソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "玉ねぎをみじん切りにして油の半量で炒め、冷ます。じゃがいもは切ってゆでる。",
+      "ひき肉、玉ねぎ、卵、パン粉、塩をよく練って成形する。",
+      "残りの油で両面を焼き、ふたをして中心まで火を通す。",
+      "ケチャップとソースを混ぜてかけ、じゃがいもを添える。"
+    ],
+    "notes": "たねの中央を少しくぼませると均等に焼ける。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we10",
+    "name": "シーザー風チキンサラダ",
+    "emoji": "🥗",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "高タンパク",
+      "野菜多め"
+    ],
+    "minutes": 20,
+    "ingredients": [
+      {
+        "name": "鶏むね肉",
+        "qty": 140,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "レタス",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "トマト",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "シーザードレッシング",
+        "qty": 25,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.5,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "卵を固ゆでにし、切る。",
+      "鶏肉を薄く開いて塩を振り、油で両面を中心まで焼き、切る。",
+      "レタスとトマトを洗って水気を切り、食べやすく切る。",
+      "野菜、鶏肉、卵を盛り、チーズとドレッシングをかける。"
+    ],
+    "notes": "鶏肉の粗熱を取ってから野菜にのせる。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we11",
+    "name": "ポトフ",
+    "emoji": "🍲",
+    "genre": "洋食",
+    "meals": [
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "節約"
+    ],
+    "minutes": 35,
+    "ingredients": [
+      {
+        "name": "ソーセージ",
+        "qty": 100,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "じゃがいも",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんじん",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "キャベツをくし切り、じゃがいもとにんじんを大きめに切る。",
+      "鍋に水、コンソメ、野菜を入れて火にかける。",
+      "弱火で野菜が柔らかくなるまで20分ほど煮る。",
+      "ソーセージを加え、製品表示に従って十分に加熱する。"
+    ],
+    "notes": "野菜の大きさで加熱時間を調整する。 分量・調理時間は目安。"
+  },
+  {
+    "id": "we12",
+    "name": "フレンチトースト",
+    "emoji": "🍞",
+    "genre": "洋食",
+    "meals": [
+      "朝食"
+    ],
+    "tags": [
+      "簡単",
+      "節約"
+    ],
+    "minutes": 15,
+    "ingredients": [
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "牛乳",
+        "qty": 100,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "バナナ",
+        "qty": 0.5,
+        "unit": "本",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "砂糖",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "バター",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "servings": 1,
+    "steps": [
+      "卵、牛乳、砂糖を混ぜ、食パンを両面浸す。",
+      "フライパンにバターを溶かし、パンを弱火で焼く。",
+      "裏返してふたをし、卵液が中まで固まるように焼く。",
+      "切ったバナナを添える。"
+    ],
+    "notes": "厚いパンは浸す時間と焼く時間を長めにする。 分量・調理時間は目安。"
+  },
+  {
+    "id": "ex011",
+    "name": "鶏肉と小松菜の甘辛丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料を返しながら焼く。野菜と水、醤油、みりん、砂糖を加え、ふたをして弱めの中火で8〜12分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "ふたを外して汁を少し煮詰め、炊いたご飯にのせる。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex012",
+    "name": "豚肉となすの甘辛丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料を返しながら焼く。野菜と水、醤油、みりん、砂糖を加え、ふたをして弱めの中火で8〜12分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "ふたを外して汁を少し煮詰め、炊いたご飯にのせる。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex013",
+    "name": "牛肉とごぼうの甘辛丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料を返しながら焼く。野菜と水、醤油、みりん、砂糖を加え、ふたをして弱めの中火で8〜12分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "ふたを外して汁を少し煮詰め、炊いたご飯にのせる。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex014",
+    "name": "鮭としめじの甘辛丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料を返しながら焼く。野菜と水、醤油、みりん、砂糖を加え、ふたをして弱めの中火で8〜12分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "ふたを外して汁を少し煮詰め、炊いたご飯にのせる。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex015",
+    "name": "たらと白菜の甘辛丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料を返しながら焼く。野菜と水、醤油、みりん、砂糖を加え、ふたをして弱めの中火で8〜12分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "ふたを外して汁を少し煮詰め、炊いたご飯にのせる。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex016",
+    "name": "豆腐とかぼちゃの甘辛丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料を返しながら焼く。野菜と水、醤油、みりん、砂糖を加え、ふたをして弱めの中火で8〜12分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "ふたを外して汁を少し煮詰め、炊いたご飯にのせる。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex017",
+    "name": "えびとブロッコリーの甘辛丼",
+    "emoji": "🍚",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料を返しながら焼く。野菜と水、醤油、みりん、砂糖を加え、ふたをして弱めの中火で8〜12分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "ふたを外して汁を少し煮詰め、炊いたご飯にのせる。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex021",
+    "name": "鶏肉と小松菜の味噌炒め",
+    "emoji": "🥢",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、みりん、砂糖を混ぜる。フライパンに油を熱し、主材料を返しながら焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにし、主材料の中心まで火を通して野菜を柔らかくする。",
+      "合わせた味噌だれを加え、焦がさないように混ぜながら炒め合わせる。炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex022",
+    "name": "豚肉となすの味噌炒め",
+    "emoji": "🥢",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、みりん、砂糖を混ぜる。フライパンに油を熱し、主材料を返しながら焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにし、主材料の中心まで火を通して野菜を柔らかくする。",
+      "合わせた味噌だれを加え、焦がさないように混ぜながら炒め合わせる。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex023",
+    "name": "牛肉とごぼうの味噌炒め",
+    "emoji": "🥢",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、みりん、砂糖を混ぜる。フライパンに油を熱し、主材料を返しながら焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにし、主材料の中心まで火を通して野菜を柔らかくする。",
+      "合わせた味噌だれを加え、焦がさないように混ぜながら炒め合わせる。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex024",
+    "name": "鮭としめじの味噌炒め",
+    "emoji": "🥢",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、みりん、砂糖を混ぜる。フライパンに油を熱し、主材料を返しながら焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにし、主材料の中心まで火を通して野菜を柔らかくする。",
+      "合わせた味噌だれを加え、焦がさないように混ぜながら炒め合わせる。炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex025",
+    "name": "たらと白菜の味噌炒め",
+    "emoji": "🥢",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、みりん、砂糖を混ぜる。フライパンに油を熱し、主材料を返しながら焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにし、主材料の中心まで火を通して野菜を柔らかくする。",
+      "合わせた味噌だれを加え、焦がさないように混ぜながら炒め合わせる。炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex026",
+    "name": "豆腐とかぼちゃの味噌炒め",
+    "emoji": "🥢",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、みりん、砂糖を混ぜる。フライパンに油を熱し、主材料を返しながら焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにし、主材料の中心まで火を通して野菜を柔らかくする。",
+      "合わせた味噌だれを加え、焦がさないように混ぜながら炒め合わせる。炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex027",
+    "name": "えびとブロッコリーの味噌炒め",
+    "emoji": "🥢",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、みりん、砂糖を混ぜる。フライパンに油を熱し、主材料を返しながら焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにし、主材料の中心まで火を通して野菜を柔らかくする。",
+      "合わせた味噌だれを加え、焦がさないように混ぜながら炒め合わせる。炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex031",
+    "name": "鶏肉と小松菜の和風だし煮",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。落としぶたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "器に具と煮汁を盛り、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex032",
+    "name": "豚肉となすの和風だし煮",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。落としぶたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "器に具と煮汁を盛り、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex033",
+    "name": "牛肉とごぼうの和風だし煮",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。落としぶたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "器に具と煮汁を盛り、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex034",
+    "name": "鮭としめじの和風だし煮",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。落としぶたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "器に具と煮汁を盛り、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex035",
+    "name": "たらと白菜の和風だし煮",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。落としぶたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "器に具と煮汁を盛り、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex036",
+    "name": "豆腐とかぼちゃの和風だし煮",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。落としぶたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "器に具と煮汁を盛り、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex037",
+    "name": "えびとブロッコリーの和風だし煮",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "だし汁",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。落としぶたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火が通り、野菜が柔らかくなるまで加熱を追加する。",
+      "器に具と煮汁を盛り、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex041",
+    "name": "鶏肉と小松菜のおろしポン酢焼き",
+    "emoji": "🍽️",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "大根",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ポン酢",
+        "qty": 20,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "大根をすりおろして水気を軽く切る。フライパンに油を熱し、主材料と野菜の表面を焼く。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "皿に盛って大根おろしとポン酢をかけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex042",
+    "name": "豚肉となすのおろしポン酢焼き",
+    "emoji": "🍽️",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "大根",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ポン酢",
+        "qty": 20,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "大根をすりおろして水気を軽く切る。フライパンに油を熱し、主材料と野菜の表面を焼く。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "皿に盛って大根おろしとポン酢をかけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex043",
+    "name": "牛肉とごぼうのおろしポン酢焼き",
+    "emoji": "🍽️",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "大根",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ポン酢",
+        "qty": 20,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "大根をすりおろして水気を軽く切る。フライパンに油を熱し、主材料と野菜の表面を焼く。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "皿に盛って大根おろしとポン酢をかけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex044",
+    "name": "鮭としめじのおろしポン酢焼き",
+    "emoji": "🍽️",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "大根",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ポン酢",
+        "qty": 20,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "大根をすりおろして水気を軽く切る。フライパンに油を熱し、主材料と野菜の表面を焼く。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "皿に盛って大根おろしとポン酢をかけ、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex045",
+    "name": "たらと白菜のおろしポン酢焼き",
+    "emoji": "🍽️",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "大根",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ポン酢",
+        "qty": 20,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "大根をすりおろして水気を軽く切る。フライパンに油を熱し、主材料と野菜の表面を焼く。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "皿に盛って大根おろしとポン酢をかけ、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex046",
+    "name": "豆腐とかぼちゃのおろしポン酢焼き",
+    "emoji": "🍽️",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "大根",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ポン酢",
+        "qty": 20,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "大根をすりおろして水気を軽く切る。フライパンに油を熱し、主材料と野菜の表面を焼く。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "皿に盛って大根おろしとポン酢をかけ、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex047",
+    "name": "えびとブロッコリーのおろしポン酢焼き",
+    "emoji": "🍽️",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "大根",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ポン酢",
+        "qty": 20,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "大根をすりおろして水気を軽く切る。フライパンに油を熱し、主材料と野菜の表面を焼く。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "皿に盛って大根おろしとポン酢をかけ、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex051",
+    "name": "鶏肉と小松菜の卵とじ",
+    "emoji": "🍳",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "だし汁",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "卵を溶いて回し入れ、ふたをして卵が好みの固さになるまで加熱する。炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex052",
+    "name": "豚肉となすの卵とじ",
+    "emoji": "🍳",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "だし汁",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "卵を溶いて回し入れ、ふたをして卵が好みの固さになるまで加熱する。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex053",
+    "name": "牛肉とごぼうの卵とじ",
+    "emoji": "🍳",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "だし汁",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "卵を溶いて回し入れ、ふたをして卵が好みの固さになるまで加熱する。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex054",
+    "name": "鮭としめじの卵とじ",
+    "emoji": "🍳",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "だし汁",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "卵を溶いて回し入れ、ふたをして卵が好みの固さになるまで加熱する。炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex055",
+    "name": "たらと白菜の卵とじ",
+    "emoji": "🍳",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "だし汁",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "卵を溶いて回し入れ、ふたをして卵が好みの固さになるまで加熱する。炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex056",
+    "name": "豆腐とかぼちゃの卵とじ",
+    "emoji": "🍳",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "だし汁",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "卵を溶いて回し入れ、ふたをして卵が好みの固さになるまで加熱する。炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex057",
+    "name": "えびとブロッコリーの卵とじ",
+    "emoji": "🍳",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "卵",
+        "qty": 1,
+        "unit": "個",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "だし汁",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "卵を溶いて回し入れ、ふたをして卵が好みの固さになるまで加熱する。炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex061",
+    "name": "鶏肉と小松菜の温うどん",
+    "emoji": "🍜",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を入れる。弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "うどんを袋の表示に従って下ゆでして加え、全体が温まるまで煮て器に盛る。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex062",
+    "name": "豚肉となすの温うどん",
+    "emoji": "🍜",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を入れる。弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "うどんを袋の表示に従って下ゆでして加え、全体が温まるまで煮て器に盛る。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex063",
+    "name": "牛肉とごぼうの温うどん",
+    "emoji": "🍜",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を入れる。弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "うどんを袋の表示に従って下ゆでして加え、全体が温まるまで煮て器に盛る。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex064",
+    "name": "鮭としめじの温うどん",
+    "emoji": "🍜",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を入れる。弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "うどんを袋の表示に従って下ゆでして加え、全体が温まるまで煮て器に盛る。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex065",
+    "name": "たらと白菜の温うどん",
+    "emoji": "🍜",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を入れる。弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "うどんを袋の表示に従って下ゆでして加え、全体が温まるまで煮て器に盛る。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex066",
+    "name": "豆腐とかぼちゃの温うどん",
+    "emoji": "🍜",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を入れる。弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "うどんを袋の表示に従って下ゆでして加え、全体が温まるまで煮て器に盛る。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex067",
+    "name": "えびとブロッコリーの温うどん",
+    "emoji": "🍜",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "うどん",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 300,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "鍋にだし汁、醤油、みりんを煮立て、主材料と野菜を入れる。弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "うどんを袋の表示に従って下ゆでして加え、全体が温まるまで煮て器に盛る。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex071",
+    "name": "鶏肉と小松菜の和風きのこパスタ",
+    "emoji": "🍝",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "えのき",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "えのきは石づきを除き、長さを半分に切る。フライパンに油を熱して主材料を返しながら焼き、野菜、えのき、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "醤油とみりんを加えてひと煮立ちさせ、ゆでたパスタと絡める。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex072",
+    "name": "豚肉となすの和風きのこパスタ",
+    "emoji": "🍝",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "えのき",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "えのきは石づきを除き、長さを半分に切る。フライパンに油を熱して主材料を返しながら焼き、野菜、えのき、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "醤油とみりんを加えてひと煮立ちさせ、ゆでたパスタと絡める。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex073",
+    "name": "牛肉とごぼうの和風きのこパスタ",
+    "emoji": "🍝",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "えのき",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "えのきは石づきを除き、長さを半分に切る。フライパンに油を熱して主材料を返しながら焼き、野菜、えのき、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "醤油とみりんを加えてひと煮立ちさせ、ゆでたパスタと絡める。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex074",
+    "name": "鮭としめじの和風きのこパスタ",
+    "emoji": "🍝",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "えのき",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "えのきは石づきを除き、長さを半分に切る。フライパンに油を熱して主材料を返しながら焼き、野菜、えのき、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "醤油とみりんを加えてひと煮立ちさせ、ゆでたパスタと絡める。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex075",
+    "name": "たらと白菜の和風きのこパスタ",
+    "emoji": "🍝",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "えのき",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "えのきは石づきを除き、長さを半分に切る。フライパンに油を熱して主材料を返しながら焼き、野菜、えのき、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "醤油とみりんを加えてひと煮立ちさせ、ゆでたパスタと絡める。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex076",
+    "name": "豆腐とかぼちゃの和風きのこパスタ",
+    "emoji": "🍝",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "えのき",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "えのきは石づきを除き、長さを半分に切る。フライパンに油を熱して主材料を返しながら焼き、野菜、えのき、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "醤油とみりんを加えてひと煮立ちさせ、ゆでたパスタと絡める。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex077",
+    "name": "えびとブロッコリーの和風きのこパスタ",
+    "emoji": "🍝",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "えのき",
+        "qty": 60,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "えのきは石づきを除き、長さを半分に切る。フライパンに油を熱して主材料を返しながら焼き、野菜、えのき、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "醤油とみりんを加えてひと煮立ちさせ、ゆでたパスタと絡める。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex081",
+    "name": "鶏肉と小松菜の豆乳味噌スープ",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "無調整豆乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "鍋にだし汁と主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "豆乳を加えて沸騰させないよう温め、火を止めて味噌を溶く。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex082",
+    "name": "豚肉となすの豆乳味噌スープ",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "無調整豆乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "鍋にだし汁と主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "豆乳を加えて沸騰させないよう温め、火を止めて味噌を溶く。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex083",
+    "name": "牛肉とごぼうの豆乳味噌スープ",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "無調整豆乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "鍋にだし汁と主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "豆乳を加えて沸騰させないよう温め、火を止めて味噌を溶く。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex084",
+    "name": "鮭としめじの豆乳味噌スープ",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "無調整豆乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "鍋にだし汁と主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "豆乳を加えて沸騰させないよう温め、火を止めて味噌を溶く。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex085",
+    "name": "たらと白菜の豆乳味噌スープ",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "無調整豆乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "鍋にだし汁と主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "豆乳を加えて沸騰させないよう温め、火を止めて味噌を溶く。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex086",
+    "name": "豆腐とかぼちゃの豆乳味噌スープ",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "無調整豆乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "鍋にだし汁と主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "豆乳を加えて沸騰させないよう温め、火を止めて味噌を溶く。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex087",
+    "name": "えびとブロッコリーの豆乳味噌スープ",
+    "emoji": "🍲",
+    "genre": "和食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "無調整豆乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 12,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "鍋にだし汁と主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "豆乳を加えて沸騰させないよう温め、火を止めて味噌を溶く。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex091",
+    "name": "鶏肉と小松菜の生姜あんかけ",
+    "emoji": "🥘",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "しょうがをすりおろす。フライパンに油を熱して主材料を返しながら焼く。野菜、だし汁、醤油、みりん、しょうがを入れ、ふたをして弱めの中火で10〜12分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を材料欄の水で溶き、煮汁を混ぜながら加える。1分ほど煮立ててとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex092",
+    "name": "豚肉となすの生姜あんかけ",
+    "emoji": "🥘",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "しょうがをすりおろす。フライパンに油を熱して主材料を返しながら焼く。野菜、だし汁、醤油、みりん、しょうがを入れ、ふたをして弱めの中火で10〜12分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を材料欄の水で溶き、煮汁を混ぜながら加える。1分ほど煮立ててとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex093",
+    "name": "牛肉とごぼうの生姜あんかけ",
+    "emoji": "🥘",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ごぼう",
+        "qty": 80,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ごぼうはよく洗って薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "しょうがをすりおろす。フライパンに油を熱して主材料を返しながら焼く。野菜、だし汁、醤油、みりん、しょうがを入れ、ふたをして弱めの中火で10〜12分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を材料欄の水で溶き、煮汁を混ぜながら加える。1分ほど煮立ててとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex094",
+    "name": "鮭としめじの生姜あんかけ",
+    "emoji": "🥘",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "しょうがをすりおろす。フライパンに油を熱して主材料を返しながら焼く。野菜、だし汁、醤油、みりん、しょうがを入れ、ふたをして弱めの中火で10〜12分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を材料欄の水で溶き、煮汁を混ぜながら加える。1分ほど煮立ててとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex095",
+    "name": "たらと白菜の生姜あんかけ",
+    "emoji": "🥘",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "しょうがをすりおろす。フライパンに油を熱して主材料を返しながら焼く。野菜、だし汁、醤油、みりん、しょうがを入れ、ふたをして弱めの中火で10〜12分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を材料欄の水で溶き、煮汁を混ぜながら加える。1分ほど煮立ててとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex096",
+    "name": "豆腐とかぼちゃの生姜あんかけ",
+    "emoji": "🥘",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "しょうがをすりおろす。フライパンに油を熱して主材料を返しながら焼く。野菜、だし汁、醤油、みりん、しょうがを入れ、ふたをして弱めの中火で10〜12分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を材料欄の水で溶き、煮汁を混ぜながら加える。1分ほど煮立ててとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex097",
+    "name": "えびとブロッコリーの生姜あんかけ",
+    "emoji": "🥘",
+    "genre": "和食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "だし汁",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "みりん",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "しょうがをすりおろす。フライパンに油を熱して主材料を返しながら焼く。野菜、だし汁、醤油、みりん、しょうがを入れ、ふたをして弱めの中火で10〜12分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を材料欄の水で溶き、煮汁を混ぜながら加える。1分ほど煮立ててとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex101",
+    "name": "鶏肉とチンゲン菜のオイスター炒め",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくをみじん切りにする。フライパンに油とにんにくを入れて弱火で香りを出し、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにして、主材料の中心まで火を通し野菜を柔らかくする。",
+      "オイスターソースと醤油を加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex102",
+    "name": "豚肉とピーマンのオイスター炒め",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくをみじん切りにする。フライパンに油とにんにくを入れて弱火で香りを出し、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにして、主材料の中心まで火を通し野菜を柔らかくする。",
+      "オイスターソースと醤油を加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex103",
+    "name": "牛肉とセロリのオイスター炒め",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくをみじん切りにする。フライパンに油とにんにくを入れて弱火で香りを出し、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにして、主材料の中心まで火を通し野菜を柔らかくする。",
+      "オイスターソースと醤油を加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex104",
+    "name": "鮭とブロッコリーのオイスター炒め",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくをみじん切りにする。フライパンに油とにんにくを入れて弱火で香りを出し、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにして、主材料の中心まで火を通し野菜を柔らかくする。",
+      "オイスターソースと醤油を加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex105",
+    "name": "たらと白菜のオイスター炒め",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくをみじん切りにする。フライパンに油とにんにくを入れて弱火で香りを出し、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにして、主材料の中心まで火を通し野菜を柔らかくする。",
+      "オイスターソースと醤油を加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex106",
+    "name": "豆腐となすのオイスター炒め",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくをみじん切りにする。フライパンに油とにんにくを入れて弱火で香りを出し、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにして、主材料の中心まで火を通し野菜を柔らかくする。",
+      "オイスターソースと醤油を加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex107",
+    "name": "えびともやしのオイスター炒め",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 12,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくをみじん切りにする。フライパンに油とにんにくを入れて弱火で香りを出し、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど蒸し焼きにして、主材料の中心まで火を通し野菜を柔らかくする。",
+      "オイスターソースと醤油を加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex111",
+    "name": "鶏肉とチンゲン菜の甘酢あん",
+    "emoji": "🥘",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "酢、ケチャップ、醤油、砂糖と水のうち65ml（1人分）を混ぜる。フライパンに油を熱して主材料を焼き、野菜と合わせた調味料を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立ててとろみをつける。炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex112",
+    "name": "豚肉とピーマンの甘酢あん",
+    "emoji": "🥘",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "酢、ケチャップ、醤油、砂糖と水のうち65ml（1人分）を混ぜる。フライパンに油を熱して主材料を焼き、野菜と合わせた調味料を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立ててとろみをつける。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex113",
+    "name": "牛肉とセロリの甘酢あん",
+    "emoji": "🥘",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "酢、ケチャップ、醤油、砂糖と水のうち65ml（1人分）を混ぜる。フライパンに油を熱して主材料を焼き、野菜と合わせた調味料を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立ててとろみをつける。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex114",
+    "name": "鮭とブロッコリーの甘酢あん",
+    "emoji": "🥘",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "酢、ケチャップ、醤油、砂糖と水のうち65ml（1人分）を混ぜる。フライパンに油を熱して主材料を焼き、野菜と合わせた調味料を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立ててとろみをつける。炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex115",
+    "name": "たらと白菜の甘酢あん",
+    "emoji": "🥘",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "酢、ケチャップ、醤油、砂糖と水のうち65ml（1人分）を混ぜる。フライパンに油を熱して主材料を焼き、野菜と合わせた調味料を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立ててとろみをつける。炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex116",
+    "name": "豆腐となすの甘酢あん",
+    "emoji": "🥘",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "酢、ケチャップ、醤油、砂糖と水のうち65ml（1人分）を混ぜる。フライパンに油を熱して主材料を焼き、野菜と合わせた調味料を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立ててとろみをつける。炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex117",
+    "name": "えびともやしの甘酢あん",
+    "emoji": "🥘",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "酢",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "酢、ケチャップ、醤油、砂糖と水のうち65ml（1人分）を混ぜる。フライパンに油を熱して主材料を焼き、野菜と合わせた調味料を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立ててとろみをつける。炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex121",
+    "name": "鶏肉とチンゲン菜のチリソース煮",
+    "emoji": "🌶️",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくとしょうがを刻み、フライパンに油とともに入れて炒める。主材料、野菜、ケチャップ、豆板醤、砂糖と水のうち85ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、1分ほど煮立てる。炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex122",
+    "name": "豚肉とピーマンのチリソース煮",
+    "emoji": "🌶️",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくとしょうがを刻み、フライパンに油とともに入れて炒める。主材料、野菜、ケチャップ、豆板醤、砂糖と水のうち85ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、1分ほど煮立てる。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex123",
+    "name": "牛肉とセロリのチリソース煮",
+    "emoji": "🌶️",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくとしょうがを刻み、フライパンに油とともに入れて炒める。主材料、野菜、ケチャップ、豆板醤、砂糖と水のうち85ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、1分ほど煮立てる。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex124",
+    "name": "鮭とブロッコリーのチリソース煮",
+    "emoji": "🌶️",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくとしょうがを刻み、フライパンに油とともに入れて炒める。主材料、野菜、ケチャップ、豆板醤、砂糖と水のうち85ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、1分ほど煮立てる。炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex125",
+    "name": "たらと白菜のチリソース煮",
+    "emoji": "🌶️",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくとしょうがを刻み、フライパンに油とともに入れて炒める。主材料、野菜、ケチャップ、豆板醤、砂糖と水のうち85ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、1分ほど煮立てる。炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex126",
+    "name": "豆腐となすのチリソース煮",
+    "emoji": "🌶️",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくとしょうがを刻み、フライパンに油とともに入れて炒める。主材料、野菜、ケチャップ、豆板醤、砂糖と水のうち85ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、1分ほど煮立てる。炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex127",
+    "name": "えびともやしのチリソース煮",
+    "emoji": "🌶️",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "豆板醤",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくとしょうがを刻み、フライパンに油とともに入れて炒める。主材料、野菜、ケチャップ、豆板醤、砂糖と水のうち85ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、1分ほど煮立てる。炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex131",
+    "name": "鶏肉とチンゲン菜の中華春雨スープ",
+    "emoji": "🍲",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "春雨",
+        "qty": 25,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "春雨を袋の表示どおり戻す。鍋に水、スープの素、醤油、主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "春雨を加えて温め、ごま油を回しかける。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex132",
+    "name": "豚肉とピーマンの中華春雨スープ",
+    "emoji": "🍲",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "春雨",
+        "qty": 25,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "春雨を袋の表示どおり戻す。鍋に水、スープの素、醤油、主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "春雨を加えて温め、ごま油を回しかける。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex133",
+    "name": "牛肉とセロリの中華春雨スープ",
+    "emoji": "🍲",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "春雨",
+        "qty": 25,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "春雨を袋の表示どおり戻す。鍋に水、スープの素、醤油、主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "春雨を加えて温め、ごま油を回しかける。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex134",
+    "name": "鮭とブロッコリーの中華春雨スープ",
+    "emoji": "🍲",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "春雨",
+        "qty": 25,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "春雨を袋の表示どおり戻す。鍋に水、スープの素、醤油、主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "春雨を加えて温め、ごま油を回しかける。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex135",
+    "name": "たらと白菜の中華春雨スープ",
+    "emoji": "🍲",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "春雨",
+        "qty": 25,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "春雨を袋の表示どおり戻す。鍋に水、スープの素、醤油、主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "春雨を加えて温め、ごま油を回しかける。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex136",
+    "name": "豆腐となすの中華春雨スープ",
+    "emoji": "🍲",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "春雨",
+        "qty": 25,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "春雨を袋の表示どおり戻す。鍋に水、スープの素、醤油、主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "春雨を加えて温め、ごま油を回しかける。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex137",
+    "name": "えびともやしの中華春雨スープ",
+    "emoji": "🍲",
+    "genre": "中華",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "春雨",
+        "qty": 25,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 3,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "春雨を袋の表示どおり戻す。鍋に水、スープの素、醤油、主材料、野菜を入れて煮立てる。弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "春雨を加えて温め、ごま油を回しかける。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex141",
+    "name": "鶏肉とチンゲン菜のカレー炒飯",
+    "emoji": "🍚",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切る。フライパンに油を熱して主材料を焼き、野菜と水を加えてふたをし、弱めの中火で8〜12分ほど加熱する。主材料の中心まで火を通し野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、カレー粉、スープの素、醤油を加えてほぐしながら炒める。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex142",
+    "name": "豚肉とピーマンのカレー炒飯",
+    "emoji": "🍚",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切る。フライパンに油を熱して主材料を焼き、野菜と水を加えてふたをし、弱めの中火で8〜12分ほど加熱する。主材料の中心まで火を通し野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、カレー粉、スープの素、醤油を加えてほぐしながら炒める。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex143",
+    "name": "牛肉とセロリのカレー炒飯",
+    "emoji": "🍚",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切る。フライパンに油を熱して主材料を焼き、野菜と水を加えてふたをし、弱めの中火で8〜12分ほど加熱する。主材料の中心まで火を通し野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、カレー粉、スープの素、醤油を加えてほぐしながら炒める。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex144",
+    "name": "鮭とブロッコリーのカレー炒飯",
+    "emoji": "🍚",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切る。フライパンに油を熱して主材料を焼き、野菜と水を加えてふたをし、弱めの中火で8〜12分ほど加熱する。主材料の中心まで火を通し野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、カレー粉、スープの素、醤油を加えてほぐしながら炒める。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex145",
+    "name": "たらと白菜のカレー炒飯",
+    "emoji": "🍚",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切る。フライパンに油を熱して主材料を焼き、野菜と水を加えてふたをし、弱めの中火で8〜12分ほど加熱する。主材料の中心まで火を通し野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、カレー粉、スープの素、醤油を加えてほぐしながら炒める。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex146",
+    "name": "豆腐となすのカレー炒飯",
+    "emoji": "🍚",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切る。フライパンに油を熱して主材料を焼き、野菜と水を加えてふたをし、弱めの中火で8〜12分ほど加熱する。主材料の中心まで火を通し野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、カレー粉、スープの素、醤油を加えてほぐしながら炒める。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex147",
+    "name": "えびともやしのカレー炒飯",
+    "emoji": "🍚",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切る。フライパンに油を熱して主材料を焼き、野菜と水を加えてふたをし、弱めの中火で8〜12分ほど加熱する。主材料の中心まで火を通し野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、カレー粉、スープの素、醤油を加えてほぐしながら炒める。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex151",
+    "name": "鶏肉とチンゲン菜のあんかけ焼きそば",
+    "emoji": "🍜",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "中華麺は袋の表示に従って下準備し、油の半量で焼き色をつけて皿に取り出す。残りの油で主材料を焼き、野菜、スープの素、オイスターソースと水のうち165ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立てて麺にかける。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex152",
+    "name": "豚肉とピーマンのあんかけ焼きそば",
+    "emoji": "🍜",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "中華麺は袋の表示に従って下準備し、油の半量で焼き色をつけて皿に取り出す。残りの油で主材料を焼き、野菜、スープの素、オイスターソースと水のうち165ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立てて麺にかける。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex153",
+    "name": "牛肉とセロリのあんかけ焼きそば",
+    "emoji": "🍜",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "中華麺は袋の表示に従って下準備し、油の半量で焼き色をつけて皿に取り出す。残りの油で主材料を焼き、野菜、スープの素、オイスターソースと水のうち165ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立てて麺にかける。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex154",
+    "name": "鮭とブロッコリーのあんかけ焼きそば",
+    "emoji": "🍜",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "中華麺は袋の表示に従って下準備し、油の半量で焼き色をつけて皿に取り出す。残りの油で主材料を焼き、野菜、スープの素、オイスターソースと水のうち165ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立てて麺にかける。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex155",
+    "name": "たらと白菜のあんかけ焼きそば",
+    "emoji": "🍜",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "中華麺は袋の表示に従って下準備し、油の半量で焼き色をつけて皿に取り出す。残りの油で主材料を焼き、野菜、スープの素、オイスターソースと水のうち165ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立てて麺にかける。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex156",
+    "name": "豆腐となすのあんかけ焼きそば",
+    "emoji": "🍜",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "中華麺は袋の表示に従って下準備し、油の半量で焼き色をつけて皿に取り出す。残りの油で主材料を焼き、野菜、スープの素、オイスターソースと水のうち165ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立てて麺にかける。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex157",
+    "name": "えびともやしのあんかけ焼きそば",
+    "emoji": "🍜",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "片栗粉",
+        "qty": 4,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 180,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "中華麺は袋の表示に従って下準備し、油の半量で焼き色をつけて皿に取り出す。残りの油で主材料を焼き、野菜、スープの素、オイスターソースと水のうち165ml（1人分）を加える。ふたをして弱めの中火で10〜12分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "片栗粉を残りの水で溶いて加え、混ぜながら1分ほど煮立てて麺にかける。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex161",
+    "name": "鶏肉とチンゲン菜のごま味噌炒め",
+    "emoji": "🥬",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "すりごま",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、醤油、砂糖を混ぜる。フライパンに油を熱して主材料を焼き、野菜と水を加える。ふたをして弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "合わせた調味料を加えて炒め合わせ、すりごまを振る。炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex162",
+    "name": "豚肉とピーマンのごま味噌炒め",
+    "emoji": "🥬",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "すりごま",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、醤油、砂糖を混ぜる。フライパンに油を熱して主材料を焼き、野菜と水を加える。ふたをして弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "合わせた調味料を加えて炒め合わせ、すりごまを振る。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex163",
+    "name": "牛肉とセロリのごま味噌炒め",
+    "emoji": "🥬",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "すりごま",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、醤油、砂糖を混ぜる。フライパンに油を熱して主材料を焼き、野菜と水を加える。ふたをして弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "合わせた調味料を加えて炒め合わせ、すりごまを振る。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex164",
+    "name": "鮭とブロッコリーのごま味噌炒め",
+    "emoji": "🥬",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "すりごま",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、醤油、砂糖を混ぜる。フライパンに油を熱して主材料を焼き、野菜と水を加える。ふたをして弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "合わせた調味料を加えて炒め合わせ、すりごまを振る。炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex165",
+    "name": "たらと白菜のごま味噌炒め",
+    "emoji": "🥬",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "すりごま",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、醤油、砂糖を混ぜる。フライパンに油を熱して主材料を焼き、野菜と水を加える。ふたをして弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "合わせた調味料を加えて炒め合わせ、すりごまを振る。炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex166",
+    "name": "豆腐となすのごま味噌炒め",
+    "emoji": "🥬",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "すりごま",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、醤油、砂糖を混ぜる。フライパンに油を熱して主材料を焼き、野菜と水を加える。ふたをして弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "合わせた調味料を加えて炒め合わせ、すりごまを振る。炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex167",
+    "name": "えびともやしのごま味噌炒め",
+    "emoji": "🥬",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "すりごま",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "味噌",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "味噌、醤油、砂糖を混ぜる。フライパンに油を熱して主材料を焼き、野菜と水を加える。ふたをして弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "合わせた調味料を加えて炒め合わせ、すりごまを振る。炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex171",
+    "name": "鶏肉とチンゲン菜のねぎ生姜蒸し",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 30,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "ねぎとしょうがを細切りにする。フライパンに野菜、主材料、ねぎ、しょうがを順に重ね、水と醤油を加える。ふたをして弱火〜中火で12〜15分ほど蒸し、主材料の中心まで火を通して野菜を柔らかくする。焦げそうなら水を少量足す。",
+      "ごま油を回しかけ、蒸し汁ごと器に盛って炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex172",
+    "name": "豚肉とピーマンのねぎ生姜蒸し",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 30,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "ねぎとしょうがを細切りにする。フライパンに野菜、主材料、ねぎ、しょうがを順に重ね、水と醤油を加える。ふたをして弱火〜中火で12〜15分ほど蒸し、主材料の中心まで火を通して野菜を柔らかくする。焦げそうなら水を少量足す。",
+      "ごま油を回しかけ、蒸し汁ごと器に盛って炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex173",
+    "name": "牛肉とセロリのねぎ生姜蒸し",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 30,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "ねぎとしょうがを細切りにする。フライパンに野菜、主材料、ねぎ、しょうがを順に重ね、水と醤油を加える。ふたをして弱火〜中火で12〜15分ほど蒸し、主材料の中心まで火を通して野菜を柔らかくする。焦げそうなら水を少量足す。",
+      "ごま油を回しかけ、蒸し汁ごと器に盛って炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex174",
+    "name": "鮭とブロッコリーのねぎ生姜蒸し",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 30,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "ねぎとしょうがを細切りにする。フライパンに野菜、主材料、ねぎ、しょうがを順に重ね、水と醤油を加える。ふたをして弱火〜中火で12〜15分ほど蒸し、主材料の中心まで火を通して野菜を柔らかくする。焦げそうなら水を少量足す。",
+      "ごま油を回しかけ、蒸し汁ごと器に盛って炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex175",
+    "name": "たらと白菜のねぎ生姜蒸し",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 30,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "ねぎとしょうがを細切りにする。フライパンに野菜、主材料、ねぎ、しょうがを順に重ね、水と醤油を加える。ふたをして弱火〜中火で12〜15分ほど蒸し、主材料の中心まで火を通して野菜を柔らかくする。焦げそうなら水を少量足す。",
+      "ごま油を回しかけ、蒸し汁ごと器に盛って炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex176",
+    "name": "豆腐となすのねぎ生姜蒸し",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 30,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "ねぎとしょうがを細切りにする。フライパンに野菜、主材料、ねぎ、しょうがを順に重ね、水と醤油を加える。ふたをして弱火〜中火で12〜15分ほど蒸し、主材料の中心まで火を通して野菜を柔らかくする。焦げそうなら水を少量足す。",
+      "ごま油を回しかけ、蒸し汁ごと器に盛って炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex177",
+    "name": "えびともやしのねぎ生姜蒸し",
+    "emoji": "🥢",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ねぎ",
+        "qty": 30,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 5,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "醤油",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ごま油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "ねぎとしょうがを細切りにする。フライパンに野菜、主材料、ねぎ、しょうがを順に重ね、水と醤油を加える。ふたをして弱火〜中火で12〜15分ほど蒸し、主材料の中心まで火を通して野菜を柔らかくする。焦げそうなら水を少量足す。",
+      "ごま油を回しかけ、蒸し汁ごと器に盛って炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex181",
+    "name": "鶏肉とチンゲン菜のトマト中華煮",
+    "emoji": "🍅",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "チンゲン菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。チンゲン菜は葉をざく切り、根元を縦に細く切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマトをざく切りにする。フライパンに油を熱して主材料を焼き、野菜、トマト、水、スープの素、醤油を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex182",
+    "name": "豚肉とピーマンのトマト中華煮",
+    "emoji": "🍅",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ピーマン",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ピーマンは種を除いて細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマトをざく切りにする。フライパンに油を熱して主材料を焼き、野菜、トマト、水、スープの素、醤油を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex183",
+    "name": "牛肉とセロリのトマト中華煮",
+    "emoji": "🍅",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "セロリ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。セロリは筋を除いて薄い斜め切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマトをざく切りにする。フライパンに油を熱して主材料を焼き、野菜、トマト、水、スープの素、醤油を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex184",
+    "name": "鮭とブロッコリーのトマト中華煮",
+    "emoji": "🍅",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマトをざく切りにする。フライパンに油を熱して主材料を焼き、野菜、トマト、水、スープの素、醤油を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex185",
+    "name": "たらと白菜のトマト中華煮",
+    "emoji": "🍅",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "白菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。白菜は葉をざく切り、芯を細切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマトをざく切りにする。フライパンに油を熱して主材料を焼き、野菜、トマト、水、スープの素、醤油を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex186",
+    "name": "豆腐となすのトマト中華煮",
+    "emoji": "🍅",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマトをざく切りにする。フライパンに油を熱して主材料を焼き、野菜、トマト、水、スープの素、醤油を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex187",
+    "name": "えびともやしのトマト中華煮",
+    "emoji": "🍅",
+    "genre": "中華",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 8,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマトをざく切りにする。フライパンに油を熱して主材料を焼き、野菜、トマト、水、スープの素、醤油を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex191",
+    "name": "鶏肉といんげんのケチャップマニス煮",
+    "emoji": "🥘",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料の表面を焼く。野菜、ケチャップマニス、醤油、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外してたれを少し煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex192",
+    "name": "豚肉とキャベツのケチャップマニス煮",
+    "emoji": "🥘",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料の表面を焼く。野菜、ケチャップマニス、醤油、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外してたれを少し煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex193",
+    "name": "牛肉となすのケチャップマニス煮",
+    "emoji": "🥘",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料の表面を焼く。野菜、ケチャップマニス、醤油、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外してたれを少し煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex194",
+    "name": "鮭と小松菜のケチャップマニス煮",
+    "emoji": "🥘",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料の表面を焼く。野菜、ケチャップマニス、醤油、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外してたれを少し煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex195",
+    "name": "たらともやしのケチャップマニス煮",
+    "emoji": "🥘",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料の表面を焼く。野菜、ケチャップマニス、醤油、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外してたれを少し煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex196",
+    "name": "豆腐とかぼちゃのケチャップマニス煮",
+    "emoji": "🥘",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料の表面を焼く。野菜、ケチャップマニス、醤油、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外してたれを少し煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex197",
+    "name": "えびとブロッコリーのケチャップマニス煮",
+    "emoji": "🥘",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料の表面を焼く。野菜、ケチャップマニス、醤油、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外してたれを少し煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex201",
+    "name": "鶏肉といんげんのバラド風",
+    "emoji": "🌶️",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 2,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマト、玉ねぎ、にんにく、唐辛子を細かく刻む。フライパンに油を熱し、刻んだ具を炒める。主材料、野菜、水、塩、砂糖を加え、ふたをして弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して汁気を軽く飛ばし、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex202",
+    "name": "豚肉とキャベツのバラド風",
+    "emoji": "🌶️",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 2,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマト、玉ねぎ、にんにく、唐辛子を細かく刻む。フライパンに油を熱し、刻んだ具を炒める。主材料、野菜、水、塩、砂糖を加え、ふたをして弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して汁気を軽く飛ばし、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex203",
+    "name": "牛肉となすのバラド風",
+    "emoji": "🌶️",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 2,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマト、玉ねぎ、にんにく、唐辛子を細かく刻む。フライパンに油を熱し、刻んだ具を炒める。主材料、野菜、水、塩、砂糖を加え、ふたをして弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して汁気を軽く飛ばし、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex204",
+    "name": "鮭と小松菜のバラド風",
+    "emoji": "🌶️",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 2,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマト、玉ねぎ、にんにく、唐辛子を細かく刻む。フライパンに油を熱し、刻んだ具を炒める。主材料、野菜、水、塩、砂糖を加え、ふたをして弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して汁気を軽く飛ばし、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex205",
+    "name": "たらともやしのバラド風",
+    "emoji": "🌶️",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 2,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマト、玉ねぎ、にんにく、唐辛子を細かく刻む。フライパンに油を熱し、刻んだ具を炒める。主材料、野菜、水、塩、砂糖を加え、ふたをして弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して汁気を軽く飛ばし、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex206",
+    "name": "豆腐とかぼちゃのバラド風",
+    "emoji": "🌶️",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 2,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマト、玉ねぎ、にんにく、唐辛子を細かく刻む。フライパンに油を熱し、刻んだ具を炒める。主材料、野菜、水、塩、砂糖を加え、ふたをして弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して汁気を軽く飛ばし、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex207",
+    "name": "えびとブロッコリーのバラド風",
+    "emoji": "🌶️",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 2,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "砂糖",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "トマト、玉ねぎ、にんにく、唐辛子を細かく刻む。フライパンに油を熱し、刻んだ具を炒める。主材料、野菜、水、塩、砂糖を加え、ふたをして弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して汁気を軽く飛ばし、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex211",
+    "name": "鶏肉といんげんのココナッツ煮",
+    "emoji": "🥥",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。鍋に油とにんにくを入れて炒め、主材料、野菜、ターメリック、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex212",
+    "name": "豚肉とキャベツのココナッツ煮",
+    "emoji": "🥥",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。鍋に油とにんにくを入れて炒め、主材料、野菜、ターメリック、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex213",
+    "name": "牛肉となすのココナッツ煮",
+    "emoji": "🥥",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。鍋に油とにんにくを入れて炒め、主材料、野菜、ターメリック、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex214",
+    "name": "鮭と小松菜のココナッツ煮",
+    "emoji": "🥥",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。鍋に油とにんにくを入れて炒め、主材料、野菜、ターメリック、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex215",
+    "name": "たらともやしのココナッツ煮",
+    "emoji": "🥥",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。鍋に油とにんにくを入れて炒め、主材料、野菜、ターメリック、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex216",
+    "name": "豆腐とかぼちゃのココナッツ煮",
+    "emoji": "🥥",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。鍋に油とにんにくを入れて炒め、主材料、野菜、ターメリック、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex217",
+    "name": "えびとブロッコリーのココナッツ煮",
+    "emoji": "🥥",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくを刻む。鍋に油とにんにくを入れて炒め、主材料、野菜、ターメリック、水を加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex221",
+    "name": "鶏肉といんげんのカリ風ココナッツカレー",
+    "emoji": "🍛",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "玉ねぎとにんにくを刻む。鍋に油を熱して玉ねぎとにんにくを炒め、カレー粉を加えてさっと混ぜる。主材料、野菜、水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex222",
+    "name": "豚肉とキャベツのカリ風ココナッツカレー",
+    "emoji": "🍛",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "玉ねぎとにんにくを刻む。鍋に油を熱して玉ねぎとにんにくを炒め、カレー粉を加えてさっと混ぜる。主材料、野菜、水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex223",
+    "name": "牛肉となすのカリ風ココナッツカレー",
+    "emoji": "🍛",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "玉ねぎとにんにくを刻む。鍋に油を熱して玉ねぎとにんにくを炒め、カレー粉を加えてさっと混ぜる。主材料、野菜、水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex224",
+    "name": "鮭と小松菜のカリ風ココナッツカレー",
+    "emoji": "🍛",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "玉ねぎとにんにくを刻む。鍋に油を熱して玉ねぎとにんにくを炒め、カレー粉を加えてさっと混ぜる。主材料、野菜、水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex225",
+    "name": "たらともやしのカリ風ココナッツカレー",
+    "emoji": "🍛",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "玉ねぎとにんにくを刻む。鍋に油を熱して玉ねぎとにんにくを炒め、カレー粉を加えてさっと混ぜる。主材料、野菜、水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex226",
+    "name": "豆腐とかぼちゃのカリ風ココナッツカレー",
+    "emoji": "🍛",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "玉ねぎとにんにくを刻む。鍋に油を熱して玉ねぎとにんにくを炒め、カレー粉を加えてさっと混ぜる。主材料、野菜、水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex227",
+    "name": "えびとブロッコリーのカリ風ココナッツカレー",
+    "emoji": "🍛",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ココナッツミルク",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "カレー粉",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 120,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "玉ねぎとにんにくを刻む。鍋に油を熱して玉ねぎとにんにくを炒め、カレー粉を加えてさっと混ぜる。主材料、野菜、水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "ココナッツミルクと塩を加えて弱火で3分ほど温め、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex231",
+    "name": "鶏肉といんげんのトゥミス風炒め",
+    "emoji": "🥬",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 1,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくと唐辛子を刻む。フライパンに油とにんにく、唐辛子を入れて炒め、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "オイスターソースとケチャップマニスを加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex232",
+    "name": "豚肉とキャベツのトゥミス風炒め",
+    "emoji": "🥬",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 1,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくと唐辛子を刻む。フライパンに油とにんにく、唐辛子を入れて炒め、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "オイスターソースとケチャップマニスを加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex233",
+    "name": "牛肉となすのトゥミス風炒め",
+    "emoji": "🥬",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 1,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくと唐辛子を刻む。フライパンに油とにんにく、唐辛子を入れて炒め、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "オイスターソースとケチャップマニスを加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex234",
+    "name": "鮭と小松菜のトゥミス風炒め",
+    "emoji": "🥬",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 1,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくと唐辛子を刻む。フライパンに油とにんにく、唐辛子を入れて炒め、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "オイスターソースとケチャップマニスを加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex235",
+    "name": "たらともやしのトゥミス風炒め",
+    "emoji": "🥬",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 1,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくと唐辛子を刻む。フライパンに油とにんにく、唐辛子を入れて炒め、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "オイスターソースとケチャップマニスを加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex236",
+    "name": "豆腐とかぼちゃのトゥミス風炒め",
+    "emoji": "🥬",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 1,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくと唐辛子を刻む。フライパンに油とにんにく、唐辛子を入れて炒め、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "オイスターソースとケチャップマニスを加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex237",
+    "name": "えびとブロッコリーのトゥミス風炒め",
+    "emoji": "🥬",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め",
+      "辛いものOK"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "唐辛子",
+        "qty": 1,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "オイスターソース",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "にんにくと唐辛子を刻む。フライパンに油とにんにく、唐辛子を入れて炒め、主材料を焼く。野菜と水を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "オイスターソースとケチャップマニスを加えて炒め合わせ、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 唐辛子・豆板醤は好みで減らせる。"
+  },
+  {
+    "id": "ex241",
+    "name": "鶏肉といんげんのピーナッツソース焼き",
+    "emoji": "🥜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼く。水のうち50ml（1人分）を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ピーナッツソースを残りの水とケチャップマニスでのばし、具に加えて温める。炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex242",
+    "name": "豚肉とキャベツのピーナッツソース焼き",
+    "emoji": "🥜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼く。水のうち50ml（1人分）を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ピーナッツソースを残りの水とケチャップマニスでのばし、具に加えて温める。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex243",
+    "name": "牛肉となすのピーナッツソース焼き",
+    "emoji": "🥜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼く。水のうち50ml（1人分）を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ピーナッツソースを残りの水とケチャップマニスでのばし、具に加えて温める。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex244",
+    "name": "鮭と小松菜のピーナッツソース焼き",
+    "emoji": "🥜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼く。水のうち50ml（1人分）を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ピーナッツソースを残りの水とケチャップマニスでのばし、具に加えて温める。炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex245",
+    "name": "たらともやしのピーナッツソース焼き",
+    "emoji": "🥜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼く。水のうち50ml（1人分）を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ピーナッツソースを残りの水とケチャップマニスでのばし、具に加えて温める。炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex246",
+    "name": "豆腐とかぼちゃのピーナッツソース焼き",
+    "emoji": "🥜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼く。水のうち50ml（1人分）を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ピーナッツソースを残りの水とケチャップマニスでのばし、具に加えて温める。炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex247",
+    "name": "えびとブロッコリーのピーナッツソース焼き",
+    "emoji": "🥜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "ピーナッツソース",
+        "qty": 30,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼く。水のうち50ml（1人分）を加え、ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ピーナッツソースを残りの水とケチャップマニスでのばし、具に加えて温める。炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex251",
+    "name": "鶏肉といんげんのターメリックスープ",
+    "emoji": "🍲",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "にんにくとしょうがを刻む。鍋に油とにんにく、しょうがを入れて弱火で炒め、ターメリックを加える。水、スープの素、主材料、野菜を加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。"
+  },
+  {
+    "id": "ex252",
+    "name": "豚肉とキャベツのターメリックスープ",
+    "emoji": "🍲",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "にんにくとしょうがを刻む。鍋に油とにんにく、しょうがを入れて弱火で炒め、ターメリックを加える。水、スープの素、主材料、野菜を加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。"
+  },
+  {
+    "id": "ex253",
+    "name": "牛肉となすのターメリックスープ",
+    "emoji": "🍲",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "にんにくとしょうがを刻む。鍋に油とにんにく、しょうがを入れて弱火で炒め、ターメリックを加える。水、スープの素、主材料、野菜を加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。"
+  },
+  {
+    "id": "ex254",
+    "name": "鮭と小松菜のターメリックスープ",
+    "emoji": "🍲",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "にんにくとしょうがを刻む。鍋に油とにんにく、しょうがを入れて弱火で炒め、ターメリックを加える。水、スープの素、主材料、野菜を加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。"
+  },
+  {
+    "id": "ex255",
+    "name": "たらともやしのターメリックスープ",
+    "emoji": "🍲",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "にんにくとしょうがを刻む。鍋に油とにんにく、しょうがを入れて弱火で炒め、ターメリックを加える。水、スープの素、主材料、野菜を加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。"
+  },
+  {
+    "id": "ex256",
+    "name": "豆腐とかぼちゃのターメリックスープ",
+    "emoji": "🍲",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "にんにくとしょうがを刻む。鍋に油とにんにく、しょうがを入れて弱火で炒め、ターメリックを加える。水、スープの素、主材料、野菜を加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。"
+  },
+  {
+    "id": "ex257",
+    "name": "えびとブロッコリーのターメリックスープ",
+    "emoji": "🍲",
+    "genre": "インドネシア",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "しょうが",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ターメリック",
+        "qty": 1,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "鶏がらスープの素",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "にんにくとしょうがを刻む。鍋に油とにんにく、しょうがを入れて弱火で炒め、ターメリックを加える。水、スープの素、主材料、野菜を加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。"
+  },
+  {
+    "id": "ex261",
+    "name": "鶏肉といんげんのナシゴレン風",
+    "emoji": "🍚",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切り、にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、ケチャップマニス、醤油を加えて炒め合わせる。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex262",
+    "name": "豚肉とキャベツのナシゴレン風",
+    "emoji": "🍚",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切り、にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、ケチャップマニス、醤油を加えて炒め合わせる。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex263",
+    "name": "牛肉となすのナシゴレン風",
+    "emoji": "🍚",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切り、にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、ケチャップマニス、醤油を加えて炒め合わせる。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex264",
+    "name": "鮭と小松菜のナシゴレン風",
+    "emoji": "🍚",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切り、にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、ケチャップマニス、醤油を加えて炒め合わせる。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex265",
+    "name": "たらともやしのナシゴレン風",
+    "emoji": "🍚",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切り、にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、ケチャップマニス、醤油を加えて炒め合わせる。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex266",
+    "name": "豆腐とかぼちゃのナシゴレン風",
+    "emoji": "🍚",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切り、にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、ケチャップマニス、醤油を加えて炒め合わせる。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex267",
+    "name": "えびとブロッコリーのナシゴレン風",
+    "emoji": "🍚",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "野菜は下準備後に1cm程度に刻む。主材料も小さく切り、にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を飛ばし、炊いたご飯、ケチャップマニス、醤油を加えて炒め合わせる。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex271",
+    "name": "鶏肉といんげんのミーゴレン風",
+    "emoji": "🍜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "いんげん",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。いんげんは筋とへたを除いて3cm幅に切る。",
+      "中華麺は袋の表示に従って下準備する。にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "麺を加えてほぐし、ケチャップマニスと醤油を加えて水分を飛ばしながら炒め合わせる。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex272",
+    "name": "豚肉とキャベツのミーゴレン風",
+    "emoji": "🍜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。キャベツは一口大に切る。",
+      "中華麺は袋の表示に従って下準備する。にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "麺を加えてほぐし、ケチャップマニスと醤油を加えて水分を飛ばしながら炒め合わせる。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex273",
+    "name": "牛肉となすのミーゴレン風",
+    "emoji": "🍜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "中華麺は袋の表示に従って下準備する。にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "麺を加えてほぐし、ケチャップマニスと醤油を加えて水分を飛ばしながら炒め合わせる。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex274",
+    "name": "鮭と小松菜のミーゴレン風",
+    "emoji": "🍜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "小松菜",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。小松菜は3cm幅に切る。",
+      "中華麺は袋の表示に従って下準備する。にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "麺を加えてほぐし、ケチャップマニスと醤油を加えて水分を飛ばしながら炒め合わせる。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex275",
+    "name": "たらともやしのミーゴレン風",
+    "emoji": "🍜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "もやし",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。もやしは洗って水気を切る。",
+      "中華麺は袋の表示に従って下準備する。にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "麺を加えてほぐし、ケチャップマニスと醤油を加えて水分を飛ばしながら炒め合わせる。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex276",
+    "name": "豆腐とかぼちゃのミーゴレン風",
+    "emoji": "🍜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "中華麺は袋の表示に従って下準備する。にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "麺を加えてほぐし、ケチャップマニスと醤油を加えて水分を飛ばしながら炒め合わせる。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex277",
+    "name": "えびとブロッコリーのミーゴレン風",
+    "emoji": "🍜",
+    "genre": "インドネシア",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "中華麺",
+        "qty": 1,
+        "unit": "玉",
+        "group": "その他"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "ケチャップマニス",
+        "qty": 15,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "醤油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 70,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "中華麺は袋の表示に従って下準備する。にんにくを刻む。フライパンに油とにんにくを入れて炒め、主材料、野菜、水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "麺を加えてほぐし、ケチャップマニスと醤油を加えて水分を飛ばしながら炒め合わせる。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 インドネシア料理の味付けを参考に、入手しやすい食材で作る簡略版。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex281",
+    "name": "鶏肉とブロッコリーのトマト煮",
+    "emoji": "🍅",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。トマト缶、水、コンソメを加えてふたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex282",
+    "name": "豚肉とズッキーニのトマト煮",
+    "emoji": "🍅",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。トマト缶、水、コンソメを加えてふたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex283",
+    "name": "牛肉となすのトマト煮",
+    "emoji": "🍅",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。トマト缶、水、コンソメを加えてふたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex284",
+    "name": "鮭としめじのトマト煮",
+    "emoji": "🍅",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。トマト缶、水、コンソメを加えてふたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex285",
+    "name": "たらとほうれん草のトマト煮",
+    "emoji": "🍅",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。トマト缶、水、コンソメを加えてふたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex286",
+    "name": "豆腐とかぼちゃのトマト煮",
+    "emoji": "🍅",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。トマト缶、水、コンソメを加えてふたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex287",
+    "name": "えびとキャベツのトマト煮",
+    "emoji": "🍅",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。トマト缶、水、コンソメを加えてふたをし、弱めの中火で10〜15分ほど煮る。主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ふたを外して好みの濃さまで煮詰め、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex291",
+    "name": "鶏肉とブロッコリーのクリーム煮",
+    "emoji": "🥛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "小麦粉",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。水とコンソメを加えてふたをし、弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "小麦粉を冷たい牛乳に少しずつ混ぜて溶き、鍋に加える。弱火で混ぜながら5分ほど煮てとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex292",
+    "name": "豚肉とズッキーニのクリーム煮",
+    "emoji": "🥛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "小麦粉",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。水とコンソメを加えてふたをし、弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "小麦粉を冷たい牛乳に少しずつ混ぜて溶き、鍋に加える。弱火で混ぜながら5分ほど煮てとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex293",
+    "name": "牛肉となすのクリーム煮",
+    "emoji": "🥛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "小麦粉",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。水とコンソメを加えてふたをし、弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "小麦粉を冷たい牛乳に少しずつ混ぜて溶き、鍋に加える。弱火で混ぜながら5分ほど煮てとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex294",
+    "name": "鮭としめじのクリーム煮",
+    "emoji": "🥛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "小麦粉",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。水とコンソメを加えてふたをし、弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "小麦粉を冷たい牛乳に少しずつ混ぜて溶き、鍋に加える。弱火で混ぜながら5分ほど煮てとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex295",
+    "name": "たらとほうれん草のクリーム煮",
+    "emoji": "🥛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "小麦粉",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。水とコンソメを加えてふたをし、弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "小麦粉を冷たい牛乳に少しずつ混ぜて溶き、鍋に加える。弱火で混ぜながら5分ほど煮てとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex296",
+    "name": "豆腐とかぼちゃのクリーム煮",
+    "emoji": "🥛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "小麦粉",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。水とコンソメを加えてふたをし、弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "小麦粉を冷たい牛乳に少しずつ混ぜて溶き、鍋に加える。弱火で混ぜながら5分ほど煮てとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex297",
+    "name": "えびとキャベツのクリーム煮",
+    "emoji": "🥛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 150,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "小麦粉",
+        "qty": 5,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 100,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱し、主材料と野菜の表面を焼く。水とコンソメを加えてふたをし、弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し野菜を柔らかくする。",
+      "小麦粉を冷たい牛乳に少しずつ混ぜて溶き、鍋に加える。弱火で混ぜながら5分ほど煮てとろみをつけ、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex301",
+    "name": "鶏肉とブロッコリーのトマトパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて弱火で香りを出し、主材料の表面を焼く。野菜、トマト缶、水、コンソメを加え、ふたをして弱めの中火で10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ゆでたパスタを加えてソースを絡める。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex302",
+    "name": "豚肉とズッキーニのトマトパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて弱火で香りを出し、主材料の表面を焼く。野菜、トマト缶、水、コンソメを加え、ふたをして弱めの中火で10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ゆでたパスタを加えてソースを絡める。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex303",
+    "name": "牛肉となすのトマトパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて弱火で香りを出し、主材料の表面を焼く。野菜、トマト缶、水、コンソメを加え、ふたをして弱めの中火で10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ゆでたパスタを加えてソースを絡める。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex304",
+    "name": "鮭としめじのトマトパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて弱火で香りを出し、主材料の表面を焼く。野菜、トマト缶、水、コンソメを加え、ふたをして弱めの中火で10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ゆでたパスタを加えてソースを絡める。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex305",
+    "name": "たらとほうれん草のトマトパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて弱火で香りを出し、主材料の表面を焼く。野菜、トマト缶、水、コンソメを加え、ふたをして弱めの中火で10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ゆでたパスタを加えてソースを絡める。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex306",
+    "name": "豆腐とかぼちゃのトマトパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて弱火で香りを出し、主材料の表面を焼く。野菜、トマト缶、水、コンソメを加え、ふたをして弱めの中火で10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ゆでたパスタを加えてソースを絡める。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex307",
+    "name": "えびとキャベツのトマトパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 150,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "にんにく",
+        "qty": 3,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "にんにくを刻む。フライパンに油とにんにくを入れて弱火で香りを出し、主材料の表面を焼く。野菜、トマト缶、水、コンソメを加え、ふたをして弱めの中火で10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。",
+      "ゆでたパスタを加えてソースを絡める。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex311",
+    "name": "鶏肉とブロッコリーのミルクチーズパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 120,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "フライパンに油を熱して主材料の表面を焼き、野菜、水、コンソメを加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "牛乳とゆでたパスタを加えて弱火で温める。チーズを加え、溶けるまで混ぜて盛り付ける。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex312",
+    "name": "豚肉とズッキーニのミルクチーズパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 120,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "フライパンに油を熱して主材料の表面を焼き、野菜、水、コンソメを加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "牛乳とゆでたパスタを加えて弱火で温める。チーズを加え、溶けるまで混ぜて盛り付ける。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex313",
+    "name": "牛肉となすのミルクチーズパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 120,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "フライパンに油を熱して主材料の表面を焼き、野菜、水、コンソメを加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "牛乳とゆでたパスタを加えて弱火で温める。チーズを加え、溶けるまで混ぜて盛り付ける。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex314",
+    "name": "鮭としめじのミルクチーズパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 120,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "フライパンに油を熱して主材料の表面を焼き、野菜、水、コンソメを加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "牛乳とゆでたパスタを加えて弱火で温める。チーズを加え、溶けるまで混ぜて盛り付ける。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex315",
+    "name": "たらとほうれん草のミルクチーズパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 120,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "フライパンに油を熱して主材料の表面を焼き、野菜、水、コンソメを加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "牛乳とゆでたパスタを加えて弱火で温める。チーズを加え、溶けるまで混ぜて盛り付ける。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex316",
+    "name": "豆腐とかぼちゃのミルクチーズパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 120,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "フライパンに油を熱して主材料の表面を焼き、野菜、水、コンソメを加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "牛乳とゆでたパスタを加えて弱火で温める。チーズを加え、溶けるまで混ぜて盛り付ける。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex317",
+    "name": "えびとキャベツのミルクチーズパスタ",
+    "emoji": "🍝",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "牛乳",
+        "qty": 120,
+        "unit": "ml",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 2,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 80,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "パスタ",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "パスタをたっぷりの湯で袋の表示どおりゆでる。ゆで上がりがソースの完成と重なるように準備する。",
+      "フライパンに油を熱して主材料の表面を焼き、野菜、水、コンソメを加える。ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "牛乳とゆでたパスタを加えて弱火で温める。チーズを加え、溶けるまで混ぜて盛り付ける。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 麺の下ゆで用の湯は材料欄とは別に用意する。"
+  },
+  {
+    "id": "ex321",
+    "name": "鶏肉とブロッコリーのチーズ焼き",
+    "emoji": "🧀",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 25,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で10〜15分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、ケチャップとチーズをのせる。ふたをして弱火でチーズを溶かし、炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex322",
+    "name": "豚肉とズッキーニのチーズ焼き",
+    "emoji": "🧀",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 25,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で10〜15分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、ケチャップとチーズをのせる。ふたをして弱火でチーズを溶かし、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex323",
+    "name": "牛肉となすのチーズ焼き",
+    "emoji": "🧀",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 25,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で10〜15分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、ケチャップとチーズをのせる。ふたをして弱火でチーズを溶かし、炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex324",
+    "name": "鮭としめじのチーズ焼き",
+    "emoji": "🧀",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 25,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で10〜15分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、ケチャップとチーズをのせる。ふたをして弱火でチーズを溶かし、炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex325",
+    "name": "たらとほうれん草のチーズ焼き",
+    "emoji": "🧀",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 25,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で10〜15分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、ケチャップとチーズをのせる。ふたをして弱火でチーズを溶かし、炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex326",
+    "name": "豆腐とかぼちゃのチーズ焼き",
+    "emoji": "🧀",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 25,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で10〜15分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、ケチャップとチーズをのせる。ふたをして弱火でチーズを溶かし、炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex327",
+    "name": "えびとキャベツのチーズ焼き",
+    "emoji": "🧀",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 25,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "ケチャップ",
+        "qty": 15,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で10〜15分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、ケチャップとチーズをのせる。ふたをして弱火でチーズを溶かし、炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex331",
+    "name": "鶏肉とブロッコリーのレモンバター焼き",
+    "emoji": "🍋",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "バター",
+        "qty": 8,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "レモン汁",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、バターとレモン汁を加えて絡める。炊いたご飯を添える。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex332",
+    "name": "豚肉とズッキーニのレモンバター焼き",
+    "emoji": "🍋",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "バター",
+        "qty": 8,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "レモン汁",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、バターとレモン汁を加えて絡める。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex333",
+    "name": "牛肉となすのレモンバター焼き",
+    "emoji": "🍋",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "バター",
+        "qty": 8,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "レモン汁",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、バターとレモン汁を加えて絡める。炊いたご飯を添える。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex334",
+    "name": "鮭としめじのレモンバター焼き",
+    "emoji": "🍋",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "バター",
+        "qty": 8,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "レモン汁",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、バターとレモン汁を加えて絡める。炊いたご飯を添える。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex335",
+    "name": "たらとほうれん草のレモンバター焼き",
+    "emoji": "🍋",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "バター",
+        "qty": 8,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "レモン汁",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、バターとレモン汁を加えて絡める。炊いたご飯を添える。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex336",
+    "name": "豆腐とかぼちゃのレモンバター焼き",
+    "emoji": "🍋",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "バター",
+        "qty": 8,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "レモン汁",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、バターとレモン汁を加えて絡める。炊いたご飯を添える。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex337",
+    "name": "えびとキャベツのレモンバター焼き",
+    "emoji": "🍋",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "バター",
+        "qty": 8,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "レモン汁",
+        "qty": 10,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 60,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "フライパンに油を熱し、主材料と野菜の表面を焼いて塩を振る。水を加えてふたをし、弱めの中火で8〜12分ほど加熱して主材料の中心まで火を通し、野菜を柔らかくする。",
+      "余分な水分を飛ばし、バターとレモン汁を加えて絡める。炊いたご飯を添える。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。"
+  },
+  {
+    "id": "ex341",
+    "name": "鶏肉とブロッコリーのコンソメスープ",
+    "emoji": "🍲",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "玉ねぎを薄切りにする。鍋に油を熱して玉ねぎを炒め、主材料、野菜、水、コンソメを加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex342",
+    "name": "豚肉とズッキーニのコンソメスープ",
+    "emoji": "🍲",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "玉ねぎを薄切りにする。鍋に油を熱して玉ねぎを炒め、主材料、野菜、水、コンソメを加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex343",
+    "name": "牛肉となすのコンソメスープ",
+    "emoji": "🍲",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "玉ねぎを薄切りにする。鍋に油を熱して玉ねぎを炒め、主材料、野菜、水、コンソメを加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex344",
+    "name": "鮭としめじのコンソメスープ",
+    "emoji": "🍲",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "玉ねぎを薄切りにする。鍋に油を熱して玉ねぎを炒め、主材料、野菜、水、コンソメを加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex345",
+    "name": "たらとほうれん草のコンソメスープ",
+    "emoji": "🍲",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "玉ねぎを薄切りにする。鍋に油を熱して玉ねぎを炒め、主材料、野菜、水、コンソメを加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex346",
+    "name": "豆腐とかぼちゃのコンソメスープ",
+    "emoji": "🍲",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "玉ねぎを薄切りにする。鍋に油を熱して玉ねぎを炒め、主材料、野菜、水、コンソメを加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex347",
+    "name": "えびとキャベツのコンソメスープ",
+    "emoji": "🍲",
+    "genre": "洋食",
+    "meals": [
+      "朝食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "玉ねぎ",
+        "qty": 40,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "コンソメ",
+        "qty": 3,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 350,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "玉ねぎを薄切りにする。鍋に油を熱して玉ねぎを炒め、主材料、野菜、水、コンソメを加える。",
+      "沸騰したら弱めの中火にし、10〜15分ほど煮て主材料の中心まで火を通し、野菜を柔らかくする。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex351",
+    "name": "鶏肉とブロッコリーのホットサンド",
+    "emoji": "🥪",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "マヨネーズ",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "野菜は下準備後に薄く小さく切る。主材料も小さく切る。フライパンに油を熱して主材料と野菜を炒め、塩と水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を十分に飛ばす。パンにマヨネーズを塗り、具とチーズを挟む。きれいなフライパンで弱火で両面をこんがり焼く。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex352",
+    "name": "豚肉とズッキーニのホットサンド",
+    "emoji": "🥪",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "マヨネーズ",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "野菜は下準備後に薄く小さく切る。主材料も小さく切る。フライパンに油を熱して主材料と野菜を炒め、塩と水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を十分に飛ばす。パンにマヨネーズを塗り、具とチーズを挟む。きれいなフライパンで弱火で両面をこんがり焼く。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex353",
+    "name": "牛肉となすのホットサンド",
+    "emoji": "🥪",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "マヨネーズ",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "野菜は下準備後に薄く小さく切る。主材料も小さく切る。フライパンに油を熱して主材料と野菜を炒め、塩と水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を十分に飛ばす。パンにマヨネーズを塗り、具とチーズを挟む。きれいなフライパンで弱火で両面をこんがり焼く。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex354",
+    "name": "鮭としめじのホットサンド",
+    "emoji": "🥪",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "マヨネーズ",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "野菜は下準備後に薄く小さく切る。主材料も小さく切る。フライパンに油を熱して主材料と野菜を炒め、塩と水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を十分に飛ばす。パンにマヨネーズを塗り、具とチーズを挟む。きれいなフライパンで弱火で両面をこんがり焼く。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex355",
+    "name": "たらとほうれん草のホットサンド",
+    "emoji": "🥪",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "マヨネーズ",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "野菜は下準備後に薄く小さく切る。主材料も小さく切る。フライパンに油を熱して主材料と野菜を炒め、塩と水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を十分に飛ばす。パンにマヨネーズを塗り、具とチーズを挟む。きれいなフライパンで弱火で両面をこんがり焼く。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex356",
+    "name": "豆腐とかぼちゃのホットサンド",
+    "emoji": "🥪",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "マヨネーズ",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "野菜は下準備後に薄く小さく切る。主材料も小さく切る。フライパンに油を熱して主材料と野菜を炒め、塩と水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を十分に飛ばす。パンにマヨネーズを塗り、具とチーズを挟む。きれいなフライパンで弱火で両面をこんがり焼く。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex357",
+    "name": "えびとキャベツのホットサンド",
+    "emoji": "🥪",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "簡単",
+      "野菜多め"
+    ],
+    "minutes": 25,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "食パン",
+        "qty": 2,
+        "unit": "枚",
+        "group": "その他"
+      },
+      {
+        "name": "チーズ",
+        "qty": 20,
+        "unit": "g",
+        "group": "卵・乳製品"
+      },
+      {
+        "name": "マヨネーズ",
+        "qty": 10,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "塩",
+        "qty": 0.7,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 50,
+        "unit": "ml",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "野菜は下準備後に薄く小さく切る。主材料も小さく切る。フライパンに油を熱して主材料と野菜を炒め、塩と水を加える。ふたをして弱めの中火で8〜12分ほど加熱し、主材料の中心まで火を通して野菜を柔らかくする。",
+      "ふたを外して水分を十分に飛ばす。パンにマヨネーズを塗り、具とチーズを挟む。きれいなフライパンで弱火で両面をこんがり焼く。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。"
+  },
+  {
+    "id": "ex361",
+    "name": "鶏肉とブロッコリーのトマトカレー",
+    "emoji": "🍛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ブロッコリー",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "カレールー",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は2cm角に切る。ブロッコリーは小房に分け、太い茎は薄切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱して主材料と野菜の表面を焼く。トマト缶と水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "火を止めてルーを溶かし、再び弱火で混ぜながらとろみがつくまで煮る。炊いたご飯にかける。"
+    ],
+    "notes": "肉の中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 ルーの製品表示に合わせて水分量を調整する。"
+  },
+  {
+    "id": "ex362",
+    "name": "豚肉とズッキーニのトマトカレー",
+    "emoji": "🍛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豚こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ズッキーニ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "カレールー",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "豚こま肉は大きければ3cm幅に切り、重なった部分をほぐす。ズッキーニは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱して主材料と野菜の表面を焼く。トマト缶と水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "火を止めてルーを溶かし、再び弱火で混ぜながらとろみがつくまで煮る。炊いたご飯にかける。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 ルーの製品表示に合わせて水分量を調整する。"
+  },
+  {
+    "id": "ex363",
+    "name": "牛肉となすのトマトカレー",
+    "emoji": "🍛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "牛こま肉",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "なす",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "カレールー",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "牛こま肉は大きければ3cm幅に切り、重なった部分をほぐす。なすは1cm幅の半月切りにする。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱して主材料と野菜の表面を焼く。トマト缶と水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "火を止めてルーを溶かし、再び弱火で混ぜながらとろみがつくまで煮る。炊いたご飯にかける。"
+    ],
+    "notes": "肉を広げて中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 ルーの製品表示に合わせて水分量を調整する。"
+  },
+  {
+    "id": "ex364",
+    "name": "鮭としめじのトマトカレー",
+    "emoji": "🍛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鮭",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "しめじ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "カレールー",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "鮭は骨を除き、3cm角に切って水気を拭く。しめじは石づきを落として小房に分ける。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱して主材料と野菜の表面を焼く。トマト缶と水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "火を止めてルーを溶かし、再び弱火で混ぜながらとろみがつくまで煮る。炊いたご飯にかける。"
+    ],
+    "notes": "生鮭を使う。崩れやすいので返す回数を少なくする。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 ルーの製品表示に合わせて水分量を調整する。"
+  },
+  {
+    "id": "ex365",
+    "name": "たらとほうれん草のトマトカレー",
+    "emoji": "🍛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "たら",
+        "qty": 130,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "ほうれん草",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "カレールー",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "たらは骨を除き、3cm角に切って水気を拭く。ほうれん草は洗って3cm幅に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱して主材料と野菜の表面を焼く。トマト缶と水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "火を止めてルーを溶かし、再び弱火で混ぜながらとろみがつくまで煮る。炊いたご飯にかける。"
+    ],
+    "notes": "生たらを使う。崩れやすいので優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 ルーの製品表示に合わせて水分量を調整する。"
+  },
+  {
+    "id": "ex366",
+    "name": "豆腐とかぼちゃのトマトカレー",
+    "emoji": "🍛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "木綿豆腐",
+        "qty": 180,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "かぼちゃ",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "カレールー",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "木綿豆腐はペーパーで包んで10分ほど水切りし、2cm角に切る。かぼちゃは種とわたを除き、1cm厚さの一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱して主材料と野菜の表面を焼く。トマト缶と水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "火を止めてルーを溶かし、再び弱火で混ぜながらとろみがつくまで煮る。炊いたご飯にかける。"
+    ],
+    "notes": "豆腐の水切りは調理時間とは別に行う。崩れないよう優しく扱う。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 ルーの製品表示に合わせて水分量を調整する。"
+  },
+  {
+    "id": "ex367",
+    "name": "えびとキャベツのトマトカレー",
+    "emoji": "🍛",
+    "genre": "洋食",
+    "meals": [
+      "昼食",
+      "夕食"
+    ],
+    "tags": [
+      "野菜多め"
+    ],
+    "minutes": 30,
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "むきえび",
+        "qty": 120,
+        "unit": "g",
+        "group": "肉・魚"
+      },
+      {
+        "name": "キャベツ",
+        "qty": 120,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "油",
+        "qty": 5,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "トマト缶",
+        "qty": 100,
+        "unit": "g",
+        "group": "野菜・きのこ"
+      },
+      {
+        "name": "カレールー",
+        "qty": 20,
+        "unit": "g",
+        "group": "その他"
+      },
+      {
+        "name": "水",
+        "qty": 150,
+        "unit": "ml",
+        "group": "その他"
+      },
+      {
+        "name": "米",
+        "qty": 100,
+        "unit": "g",
+        "group": "その他"
+      }
+    ],
+    "steps": [
+      "むきえびは背わたを除いて洗い、水気を拭く。キャベツは一口大に切る。",
+      "米は洗って通常どおり炊き、ご飯を用意する。",
+      "鍋に油を熱して主材料と野菜の表面を焼く。トマト缶と水を加え、ふたをして弱めの中火で10〜15分ほど煮て、主材料の中心まで火を通し、野菜を柔らかくする。",
+      "火を止めてルーを溶かし、再び弱火で混ぜながらとろみがつくまで煮る。炊いたご飯にかける。"
+    ],
+    "notes": "生のむきえびを使用し、中心まで十分に加熱する。 家庭向けのアレンジレシピ。分量・時間は目安で、人数が増える場合は鍋の大きさと加熱時間も調整する。 米は炊く前の重量。炊飯時間は表示の調理時間に含まない。 ルーの製品表示に合わせて水分量を調整する。"
+  }
+];

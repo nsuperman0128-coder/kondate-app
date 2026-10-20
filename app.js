@@ -70,19 +70,42 @@ function persist(){
 function toast(msg){const e=$('#toast');e.textContent=msg;e.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('show'),1600)}
 function showView(id){$$('.view').forEach(v=>v.classList.toggle('active',v.id===id));$$('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.target===id));window.scrollTo({top:0,behavior:'smooth'})}
 function renderToday(){
-  $('#todayMeals').innerHTML=state.today.map((m,i)=>`<article class="meal-card"><div class="meal-icon">${m.emoji}</div><div class="meal-meta"><small>${m.type} ・ ${m.genre} ・ 約${m.minutes}分</small><strong>${m.name}</strong></div><button class="fav-btn ${m.favorite?'on':''}" data-fav="${i}">${m.favorite?'♥':'♡'}</button></article>`).join('');
+  $('#todayMeals').innerHTML=state.today.map((m,i)=>`<article class="meal-card"><div class="meal-icon">${m.emoji}</div><button class="meal-meta recipe-link" data-recipe="${m.id}"><small>${m.type} ・ ${m.genre} ・ 約${m.minutes}分</small><strong>${m.name}</strong></button><button class="fav-btn ${m.favorite?'on':''}" data-fav="${i}">${m.favorite?'♥':'♡'}</button></article>`).join('');
   $$('[data-fav]').forEach(b=>b.onclick=()=>{const i=+b.dataset.fav;state.today[i].favorite=!state.today[i].favorite;persist();renderToday()})
 }
 function renderWeek(){
-  $('#weekList').innerHTML=state.week.map(d=>`<article class="day-card"><div class="day-head"><strong>${d.day}曜日</strong><span>›</span></div><div class="day-grid">${d.meals.map(m=>`<div class="mini"><small>${m.type} ・ ${m.genre}</small><span>${m.name}</span></div>`).join('')}</div></article>`).join('')
+  $('#weekList').innerHTML=state.week.map(d=>`<article class="day-card"><div class="day-head"><strong>${d.day}曜日</strong><span>›</span></div><div class="day-grid">${d.meals.map(m=>`<button class="mini recipe-link" data-recipe="${m.id}"><small>${m.type} ・ ${m.genre}</small><span>${m.name}</span></button>`).join('')}</div></article>`).join('')
 }
 function renderShopping(){
   $('#shoppingList').innerHTML=state.shopping.map(([g,items],gi)=>`<section class="shop-group"><h3>${g}</h3>${items.map((it,ii)=>`<label class="shop-row ${it.done?'done':''}"><input type="checkbox" data-shop="${gi}:${ii}" ${it.done?'checked':''}><span>${it.name}</span><em>${it.qty}</em></label>`).join('')}</section>`).join('')||'<p>買い物項目がありません。</p>';
   $$('[data-shop]').forEach(c=>c.onchange=()=>{const [gi,ii]=c.dataset.shop.split(':').map(Number);state.shopping[gi][1][ii].done=c.checked;persist();renderShopping()})
 }
 function renderRecipes(){
-  $('#recipeList').innerHTML=RECIPES.map(r=>`<article class="recipe-card"><div class="emoji">${r.emoji}</div><h3>${r.name}</h3><p>${r.genre} ・ ${r.meals.join('/')} ・ 約${r.minutes}分</p><p>${r.tags.join(' / ')}</p></article>`).join('')
+  const query=$('#recipeSearch').value.trim().normalize('NFKC').toLowerCase();
+  const genre=$('#recipeGenre').value;
+  const keywords=terms(query);
+  const visible=RECIPES.filter(r=>(!genre||r.genre===genre)&&keywords.every(q=>[r.name,...r.ingredients.map(i=>i.name)].join(' ').normalize('NFKC').toLowerCase().includes(q)));
+  $('#recipeCount').textContent=visible.length+'品 / 全'+RECIPES.length+'品';
+  $('#recipeList').innerHTML=visible.map(r=>`<button class="recipe-card recipe-link" data-recipe="${r.id}"><div class="emoji">${r.emoji}</div><h3>${r.name}</h3><p>${r.genre} ・ ${r.meals.join('/')} ・ 約${r.minutes}分</p><p>${r.tags.join(' / ')}</p></button>`).join('')||'<p>該当する料理がありません。検索語やジャンルを変えてください。</p>'
 }
+const escapeHTML=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let recipeTrigger=null;
+function openRecipe(id,trigger){
+  const r=RECIPES.find(x=>x.id===id);if(!r)return;
+  recipeTrigger=trigger;
+  const people=Math.max(1,Number(settings().people)||2);
+  $('#recipeTitle').textContent=r.emoji+' '+r.name;
+  $('#recipeInfo').textContent=r.genre+' ・ 約'+r.minutes+'分 ・ '+people+'人分';
+  $('#recipeIngredients').innerHTML=r.ingredients.map(i=>'<li><span>'+escapeHTML(i.name)+'</span><b>'+roundQty(i.qty*people/r.servings)+escapeHTML(i.unit)+'</b></li>').join('');
+  $('#recipeSteps').innerHTML=r.steps.map(s=>'<li>'+escapeHTML(s)+'</li>').join('');
+  $('#recipeNotes').textContent=r.notes;
+  $('#recipeDialog').showModal();$('#closeRecipe').focus();
+}
+document.addEventListener('click',e=>{const trigger=e.target.closest('[data-recipe]');if(trigger)openRecipe(trigger.dataset.recipe,trigger)});
+$('#closeRecipe').onclick=()=>$('#recipeDialog').close();
+$('#recipeDialog').addEventListener('close',()=>{if(recipeTrigger?.isConnected)recipeTrigger.focus()});
+$('#recipeSearch').addEventListener('input',renderRecipes);
+$('#recipeGenre').addEventListener('change',renderRecipes);
 function loadSettings(){const s=settings();$('#people').value=s.people||'2';$('#budget').value=s.budget||'mid';$('#dislikes').value=s.dislikes||'';$('#fridge').value=s.fridge||'';[["mealChecks",s.meals],["genreChecks",s.genres],["optionChecks",s.options]].forEach(([id,vals])=>{if(!vals)return;$$(`#${id} input`).forEach(c=>c.checked=vals.includes(c.value))})}
 function checked(id){return $$(`#${id} input:checked`).map(c=>c.value)}
 function regenerateAll(){state.today=makeToday();state.week=makeWeek();state.shopping=buildShopping(state.week);persist();renderToday();renderWeek();renderShopping()}
